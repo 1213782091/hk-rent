@@ -6,6 +6,13 @@ on:
     #   北京时间 09:00 / 16:00 / 23:00  →  UTC 01:00 / 08:00 / 15:00
     - cron: '0 1,8,15 * * *'
   workflow_dispatch:          # 允许手动触发：仓库页 Actions → 本工作流 → Run workflow
+  push:
+    # 改了脚本或工作流本身时自动跑一次，方便验证改动是否正常。
+    # 只监听这几个文件 —— 机器人自己提交的 data/ 与 index.html 不在其中，不会造成循环触发。
+    paths:
+      - 'scrape.py'
+      - 'build.py'
+      - '.github/workflows/refresh.yml'
 
 permissions:
   contents: write             # 需要写权限才能把更新提交回仓库
