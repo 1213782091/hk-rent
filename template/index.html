@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>华润大厦通勤租房 · 手机版</title>
+<link rel="stylesheet" href="https://lib.baomitu.com/leaflet/1.9.4/leaflet.css">
+<style>
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+               background: #f2f2ef; color: #2c2c2a; font-size: 14px; -webkit-text-size-adjust: 100%; }
+  .hd { display: flex; align-items: center; justify-content: space-between; gap: 10px;
+        padding: 10px 14px; background: #fff; border-bottom: 0.5px solid #e3e1dc;
+        padding-top: calc(10px + env(safe-area-inset-top)); }
+  .hd-t { font-size: 15px; font-weight: 500; }
+  .hd-s { font-size: 11px; color: #888780; margin-top: 2px; }
+  .hd-c { font-size: 12px; font-weight: 500; color: #0f6e56; background: #e1f5ee;
+          padding: 4px 9px; border-radius: 20px; white-space: nowrap; }
+  .hd-c.zero { color: #993c1d; background: #faece7; }
+  #map { height: 38dvh; min-height: 210px; background: #e8e6e1; }
+  .bar { display: flex; gap: 8px; padding: 10px 14px 8px; background: #fff; }
+  .bar input { flex: 1; min-width: 0; font-size: 14px; padding: 9px 12px; border: 0.5px solid #d8d6d0;
+               border-radius: 9px; font-family: inherit; color: #2c2c2a; background: #fafaf8; }
+  .bar input:focus { outline: none; border-color: #185fa5; background: #fff; }
+  .bar button { font-size: 13px; padding: 9px 13px; border-radius: 9px; border: 0.5px solid #d8d6d0;
+                background: #fff; color: #5f5e5a; font-family: inherit; white-space: nowrap; }
+  .bar button.on { background: #185fa5; border-color: #185fa5; color: #fff; }
+  .facets { background: #fff; border-bottom: 0.5px solid #e3e1dc; padding: 0 0 8px; }
+  .facets.hide { display: none; }
+  .fr { display: flex; align-items: center; gap: 6px; padding: 0 14px; margin-top: 7px; }
+  .fl { width: 26px; flex-shrink: 0; font-size: 11px; color: #9a9a94; }
+  .fc { display: flex; gap: 5px; overflow-x: auto; padding: 1px 0 2px; -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; }
+  .fc::-webkit-scrollbar { display: none; }
+  .chip { flex-shrink: 0; font-size: 12px; padding: 5px 11px; border-radius: 16px; border: 0.5px solid #d8d6d0;
+          background: #fff; color: #5f5e5a; font-family: inherit; white-space: nowrap; }
+  .chip.on { background: #185fa5; border-color: #185fa5; color: #fff; }
+  .list { padding: 10px 12px calc(28px + env(safe-area-inset-bottom)); }
+  .grp { font-size: 12px; color: #888780; margin: 14px 0 7px; padding: 0 2px 5px;
+         border-bottom: 0.5px solid #e3e1dc; }
+  .item { background: #fff; border-radius: 11px; padding: 12px 13px; margin-bottom: 9px;
+          border: 0.5px solid #e6e4df; }
+  .item.on { border-color: #185fa5; box-shadow: 0 0 0 1px #185fa5 inset; }
+  .item.over { border-color: #f0997b; }
+  .nm { font-size: 15px; font-weight: 500; display: flex; align-items: center; gap: 6px; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .p1 { font-size: 14px; margin-top: 5px; }
+  .price { color: #0f6e56; font-weight: 500; }
+  .item.over .price { color: #993c1d; }
+  .p2 { font-size: 12.5px; color: #888780; margin-top: 3px; line-height: 1.5; }
+  .p3 { font-size: 13px; margin-top: 6px; line-height: 1.5; }
+  .tags { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 5px; }
+  .tag { font-size: 11px; padding: 2px 7px; border-radius: 5px; background: #e1f5ee; color: #0f6e56; }
+  .go { display: block; margin-top: 9px; font-size: 13px; color: #185fa5; text-decoration: none;
+        padding: 8px 0 2px; border-top: 0.5px solid #ecebe6; }
+  .leaflet-popup-content { font-size: 13px; line-height: 1.6; margin: 10px 12px; }
+  .leaflet-popup-content b { font-weight: 500; }
+  .leaflet-popup-content a { color: #185fa5; }
+  .pin { border-radius: 50%; border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,.35); }
+</style>
+</head>
+<body>
+
+<div class="hd">
+  <div>
+    <div class="hd-t">华润大厦通勤租房</div>
+    <div class="hd-s">湾仔港湾道 26 号 · 港铁会展站 · 数据截至 <span id="asof">—</span></div>
+  </div>
+  <div class="hd-c" id="cnt">…</div>
+</div>
+
+<div id="map"></div>
+
+<div class="bar">
+  <input id="kw" type="text" placeholder="搜索楼宇名 / 地址 / 备注">
+  <button id="ftog" type="button">筛选</button>
+</div>
+
+<div class="facets hide" id="facets">
+  <div class="fr"><span class="fl">通勤</span><div class="fc" data-f="door">
+    <button class="chip on" data-v="999">不限</button>
+    <button class="chip" data-v="15">≤15分</button>
+    <button class="chip" data-v="25">≤25分</button>
+    <button class="chip" data-v="30">≤30分</button>
+    <button class="chip" data-v="40">≤40分</button>
+  </div></div>
+  <div class="fr"><span class="fl">楼龄</span><div class="fc" data-f="age">
+    <button class="chip on" data-v="all">不限</button>
+    <button class="chip" data-v="new">≤30年</button>
+    <button class="chip" data-v="mid">31–50年</button>
+    <button class="chip" data-v="old">≥51年</button>
+    <button class="chip" data-v="unk">待核实</button>
+  </div></div>
+  <div class="fr"><span class="fl">租金</span><div class="fc" data-f="rent">
+    <button class="chip on" data-v="99999">不限</button>
+    <button class="chip" data-v="6000">≤6千</button>
+    <button class="chip" data-v="8000">≤8千</button>
+    <button class="chip" data-v="10000">≤1万</button>
+    <button class="chip" data-v="12000">≤1.2万</button>
+  </div></div>
+  <div class="fr"><span class="fl">户型</span><div class="fc" data-f="room">
+    <button class="chip on" data-v="all">不限</button>
+    <button class="chip" data-v="开放式">开放式</button>
+    <button class="chip" data-v="一房">一房</button>
+    <button class="chip" data-v="两房">两房</button>
+  </div></div>
+  <div class="fr"><span class="fl">面积</span><div class="fc" data-f="area">
+    <button class="chip on" data-v="0">不限</button>
+    <button class="chip" data-v="150">≥150呎</button>
+    <button class="chip" data-v="200">≥200呎</button>
+    <button class="chip" data-v="300">≥300呎</button>
+  </div></div>
+  <div class="fr"><span class="fl">方式</span><div class="fc" data-f="mode">
+    <button class="chip on" data-v="all">不限</button>
+    <button class="chip" data-v="walk">步行直达</button>
+    <button class="chip" data-v="mtr">港铁</button>
+  </div></div>
+  <div class="fr"><span class="fl">排序</span><div class="fc" data-f="sort">
+    <button class="chip on" data-v="door">门到门</button>
+    <button class="chip" data-v="rent">租金</button>
+    <button class="chip" data-v="ft">呎租</button>
+    <button class="chip" data-v="area">面积</button>
+    <button class="chip" data-v="age">楼龄新</button>
+  </div></div>
+</div>
+
+<div class="list" id="list"></div>
+
+<script src="https://lib.baomitu.com/leaflet/1.9.4/leaflet.js"></script>
+<script>
+const OFFICE = { id: 'office', name: '华润大厦（公司）', lat: 22.277409, lng: 114.180348, note: '湾仔港湾道26号，楼下即港铁会展站（东铁线）' };
+const EXIT_MIN = 3;
+
+const SPOTS = /*__SPOTS__*/[];
+const META = /*__META__*/{"asof":"2026-10-01","total":0,"delisted":0,"added":0};
+
+function eNum(s) { return parseInt(s.id.slice(1), 10); }
+function isE(s, lo, hi) { return s.id.charAt(0) === 'e' && eNum(s) >= lo && eNum(s) <= hi; }
+function isF(s, lo, hi) { return s.id.charAt(0) === 'f' && eNum(s) >= lo && eNum(s) <= hi; }
+function isG(s, lo, hi) { return s.id.charAt(0) === 'g' && eNum(s) >= lo && eNum(s) <= hi; }
+
+const GROUPS = [
+  { test: function (s) { return isF(s, 1, 23); }, title: '港岛·湾仔 / 金钟 / 铜锣湾（步行直达或 1–2 站 · 4–21 分钟）' },
+  { test: function (s) { return isF(s, 24, 38); }, title: '港岛·天后 / 炮台山 / 北角（港岛线 · 20–26 分钟）' },
+  { test: function (s) { return isF(s, 39, 63); }, title: '港岛·鰂鱼涌 / 西湾河 / 筲箕湾（港岛线 · 25–33 分钟）' },
+  { test: function (s) { return isG(s, 1, 99); }, title: '新界东·大围 / 沙田（东铁线直达会展 · 22–30 分钟）' },
+  { test: function (s) { return /^[wyjs]|^h1|^k1/.test(s.id); }, title: '旺角 / 油麻地 / 佐敦 / 长沙湾 / 何文田（港铁 15–25 分钟）' },
+  { test: function (s) { return isE(s, 1, 19); }, title: '土瓜湾（屯马线土瓜湾站 · 港铁 17 分钟）' },
+  { test: function (s) { return s.id.charAt(0) === 'c'; }, title: '深水埗 / 太子 / 大角咀（港铁 20–23 分钟）' },
+  { test: function (s) { return isE(s, 20, 31); }, title: '九龙城（屯马线宋皇台站 · 港铁 20 分钟）' },
+  { test: function (s) { return isE(s, 32, 99); }, title: '新蒲岗 / 黄大仙 / 钻石山（港铁 20–25 分钟）' },
+  { test: function (s) { return s.id.charAt(0) === 'a'; }, title: '葵涌 / 大埔 / 粉岭（港铁 29–35 分钟）' },
+  { test: function (s) { return s.id.charAt(0) === 'b'; }, title: '超出预算（仅作参考）' }
+];
+
+function doorMin(o) { return o.ride + o.feedMin + (o.walk ? 0 : EXIT_MIN); }
+function sqm(ft) { return Math.round(ft * 0.092903 * 10) / 10; }
+function areaText(ft) { return ft + ' 呎（' + sqm(ft) + ' ㎡）'; }
+function yearText(o) {
+  if (o.year === 0) return '楼龄待核实';
+  if (o.ynote === '全新') return '2026年全新入伙';
+  const a = 2026 - o.year;
+  return o.year + ' 年入伙（' + a + ' 年楼龄）';
+}
+function ageNum(o) { return o.year > 0 ? 2026 - o.year : 999; }
+function ageShort(o) { if (!(o.year > 0)) return '待核实'; const a = ageNum(o); return a <= 0 ? '全新' : a + ' 年'; }
+function ageBand(o) { if (!(o.year > 0)) return 'unk'; const a = ageNum(o); return a <= 30 ? 'new' : (a <= 50 ? 'mid' : 'old'); }
+function roomCat(o) {
+  if (o.room.indexOf('开放式') >= 0) return '开放式';
+  if (o.room.indexOf('两房') >= 0) return '两房';
+  return '一房';
+}
+
+const F = { door: 999, age: 'all', rent: 99999, room: 'all', area: 0, mode: 'all', sort: 'door' };
+let kw = '';
+function visible(o) {
+  if (doorMin(o) > F.door) return false;
+  if (F.age !== 'all' && ageBand(o) !== F.age) return false;
+  if (o.price > F.rent) return false;
+  if (F.room !== 'all' && roomCat(o) !== F.room) return false;
+  if (o.area < F.area) return false;
+  if (F.mode === 'walk' && !o.walk) return false;
+  if (F.mode === 'mtr' && o.walk) return false;
+  if (kw) {
+    const blob = (o.name + ' ' + o.addr + ' ' + o.room + ' ' + o.floor + ' ' + o.note + ' ' + yearText(o)).toLowerCase();
+    if (blob.indexOf(kw) < 0) return false;
+  }
+  return true;
+}
+function cmp(a, b) {
+  if (F.sort === 'rent') return a.price - b.price || doorMin(a) - doorMin(b);
+  if (F.sort === 'ft') return (a.price / a.area) - (b.price / b.area);
+  if (F.sort === 'area') return b.area - a.area || a.price - b.price;
+  if (F.sort === 'age') return ageNum(a) - ageNum(b) || doorMin(a) - doorMin(b);
+  return doorMin(a) - doorMin(b) || a.price - b.price;
+}
+
+const CDNS = [
+  'https://lib.baomitu.com/leaflet/1.9.4/leaflet.js',
+  'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js',
+  'https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js'
+];
+function loadLeaflet(k, done) {
+  if (window.L) return done(true);
+  if (k >= CDNS.length) return done(false);
+  const s = document.createElement('script');
+  s.src = CDNS[k];
+  s.onload = function () { done(!!window.L); };
+  s.onerror = function () { loadLeaflet(k + 1, done); };
+  document.head.appendChild(s);
+}
+
+let map = null, markerLayer = null, lineLayer = null, markersById = {};
+function boot() {
+  const asof = document.getElementById('asof');
+  if (asof) asof.textContent = META.asof + (META.delisted ? '（' + META.delisted + ' 套已下架）' : '');
+  map = L.map('map', { zoomControl: false, attributionControl: false }).setView([22.338, 114.180], 11);
+  L.control.zoom({ position: 'topright' }).addTo(map);
+  L.tileLayer('https://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}', {
+    subdomains: ['1', '2', '3', '4'], maxZoom: 18, minZoom: 9
+  }).addTo(map);
+  markerLayer = L.layerGroup().addTo(map);
+  lineLayer = L.layerGroup().addTo(map);
+  render();
+}
+
+function pinHtml(color, big) {
+  const s = big ? 15 : 11;
+  return '<div class="pin" style="width:' + s + 'px;height:' + s + 'px;background:' + color + '"></div>';
+}
+function popupHtml(o) {
+  let h = '<b>' + o.name + '</b><br>';
+  h += '月租 <b>HK$' + o.price.toLocaleString() + '</b> · ' + o.room + '<br>';
+  h += areaText(o.area) + '<br>';
+  h += o.addr + '　' + o.floor + '<br>';
+  h += '楼龄 ' + ageShort(o) + '<br>';
+  if (o.walk) h += '<b>步行直达公司 ' + o.feedMin + ' 分钟</b><br>';
+  else h += '港铁 ' + o.ride + ' 分 ＋ 接驳 ' + o.feedMin + ' 分 ＋ 出站 ' + EXIT_MIN + ' 分<br>';
+  h += '→ 门到门约 <b>' + doorMin(o) + ' 分钟</b><br>';
+  h += '<a href="' + o.url + '" target="_blank" rel="noopener">在 28Hse 查看 ↗</a>';
+  return h;
+}
+
+const listEl = document.getElementById('list');
+
+function rowEl(o) {
+  const d = document.createElement('div');
+  d.className = 'item' + (o.ok === false ? ' over' : '');
+  d.dataset.id = o.id;
+  let s = '<div class="nm"><i class="dot" style="background:' + (o.ok ? '#1d9e75' : '#d85a30') + '"></i>' + o.name + '</div>';
+  s += '<div class="p1"><span class="price">HK$' + o.price.toLocaleString() + '</span> · ' + o.room + ' · ' + areaText(o.area) + '</div>';
+  s += '<div class="p2">' + o.addr + '　' + o.floor + '　楼龄 ' + ageShort(o) + '</div>';
+  if (o.walk) {
+    s += '<div class="p3"><b>步行直达公司 ' + o.feedMin + ' 分钟</b> = <b style="color:#1d9e75">门到门约 ' + doorMin(o) + ' 分钟</b></div>';
+  } else {
+    s += '<div class="p3"><b>港铁 ' + o.ride + ' 分</b> ＋ 接驳 ' + o.feedMin + ' 分 ＋ 出站 ' + EXIT_MIN + ' 分 = <b style="color:' + (doorMin(o) <= 40 ? '#1d9e75' : '#d85a30') + '">门到门约 ' + doorMin(o) + ' 分钟</b></div>';
+  }
+  s += '<div class="tags"><span class="tag">' + (o.ok ? '预算内' : '超出预算') + '</span>';
+  s += '<span class="tag" style="background:#eef2f7;color:#3a5a7a">@' + (o.price / o.area).toFixed(1) + ' 元/呎</span>';
+  if (o.walk) s += '<span class="tag" style="background:#eaf3fb;color:#2b6ca3">步行</span>';
+  if (o.est) s += '<span class="tag" style="background:#f3eef9;color:#5b3d99">车程推算</span>';
+  if (doorMin(o) > 40) s += '<span class="tag" style="background:#faece7;color:#993c1d">通勤超 40 分</span>';
+  s += '</div>';
+  s += '<a class="go" href="' + o.url + '" target="_blank" rel="noopener">在 28Hse 查看 ↗</a>';
+  d.innerHTML = s;
+  d.onclick = function (e) {
+    if (e.target.tagName === 'A') return;
+    document.querySelectorAll('.item').forEach(function (x) { x.classList.remove('on'); });
+    d.classList.add('on');
+    const m = markersById[o.id];
+    if (m) {
+      map.setView([o.lat, o.lng], 16);
+      m.openPopup();
+      document.getElementById('map').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+  return d;
+}
+
+function render() {
+  const vis = SPOTS.filter(visible);
+  const cnt = document.getElementById('cnt');
+  cnt.textContent = vis.length + ' 套符合';
+  cnt.className = 'hd-c' + (vis.length ? '' : ' zero');
+
+  listEl.innerHTML = '';
+  let shown = 0;
+  GROUPS.forEach(function (g) {
+    const items = vis.filter(g.test);
+    if (!items.length) return;
+    const hd = document.createElement('div');
+    hd.className = 'grp';
+    hd.textContent = g.title + '　·　' + items.length + ' 套';
+    listEl.appendChild(hd);
+    items.sort(cmp);
+    items.forEach(function (s) { listEl.appendChild(rowEl(s)); shown++; });
+  });
+  if (!shown) {
+    const e = document.createElement('div');
+    e.className = 'grp';
+    e.textContent = '没有房源同时满足这些条件，试试放宽某一项。';
+    listEl.appendChild(e);
+  }
+
+  if (!map) return;
+  markerLayer.clearLayers();
+  lineLayer.clearLayers();
+  markersById = {};
+  vis.forEach(function (o) {
+    const mk = L.marker([o.lat, o.lng], {
+      icon: L.divIcon({ className: '', html: pinHtml(o.ok ? '#1d9e75' : '#d85a30'), iconSize: [11, 11], iconAnchor: [5.5, 5.5] })
+    });
+    mk.bindPopup(popupHtml(o), { maxWidth: 240 });
+    mk.addTo(markerLayer);
+    markersById[o.id] = mk;
+    if (vis.length <= 60) {
+      L.polyline([[OFFICE.lat, OFFICE.lng], [o.lat, o.lng]], {
+        color: o.ok ? '#9fd9c3' : '#f0bda8', weight: 1, opacity: 0.75, dashArray: '3,4'
+      }).addTo(lineLayer);
+    }
+  });
+  L.marker([OFFICE.lat, OFFICE.lng], {
+    icon: L.divIcon({ className: '', html: pinHtml('#534ab7', true), iconSize: [15, 15], iconAnchor: [7.5, 7.5] })
+  }).bindPopup('<b>华润大厦（公司）</b><br>湾仔港湾道26号<br>楼下即港铁会展站（东铁线）').addTo(markerLayer);
+}
+
+const NUMERIC = { door: 1, rent: 1, area: 1 };
+document.querySelectorAll('.fc').forEach(function (box) {
+  const facet = box.dataset.f;
+  box.querySelectorAll('.chip').forEach(function (b) {
+    b.onclick = function () {
+      box.querySelectorAll('.chip').forEach(function (x) { x.classList.remove('on'); });
+      b.classList.add('on');
+      F[facet] = NUMERIC[facet] ? parseInt(b.dataset.v, 10) : b.dataset.v;
+      render();
+    };
+  });
+});
+document.getElementById('kw').oninput = function (e) { kw = e.target.value.trim().toLowerCase(); render(); };
+document.getElementById('ftog').onclick = function () {
+  const f = document.getElementById('facets');
+  f.classList.toggle('hide');
+  this.classList.toggle('on', !f.classList.contains('hide'));
+};
+
+loadLeaflet(0, function (okL) {
+  if (okL) { boot(); return; }
+  document.getElementById('map').innerHTML =
+    '<div style="padding:26px 18px;font-size:13px;color:#888780;line-height:1.7">' +
+    '地图组件加载失败（需要联网）。<br>左侧筛选与下方房源列表仍可正常使用。</div>';
+  render();
+});
+</script>
+</body>
+</html>

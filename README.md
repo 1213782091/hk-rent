@@ -1,0 +1,125 @@
+# 香港通勤租房 · 自动刷新
+
+把「华润大厦通勤租房地图」放到 GitHub 上，由 GitHub 的免费定时任务每周自动核对一次房源是否还在架、租金有没有变，并把更新后的页面自动发布成网址。
+
+**你的电脑关不关机都无所谓**，跑任务的是 GitHub 的服务器。
+
+---
+
+## 它每周做什么
+
+1. 逐个打开已入图的房源详情页（160 套左右，约 1 分钟）
+2. 判断三件事：**还在不在架 / 租金变了没有 / 有没有降价**
+3. 更新 `data/spots.json`，写一份变化报告 `data/changes.md`
+4. 用新数据重新生成 `index.html`
+5. 提交回仓库 → GitHub Pages 自动更新网址
+
+已下架和确认错配的房源不会自动删除，只是标记后不再上图，记录都留在 `spots.json` 里可追溯。
+
+---
+
+## 部署步骤
+
+### 1. 建仓库
+
+在 GitHub 上新建一个仓库（**Public** 或 Private 都行），名字随意，比如 `hk-rent`。
+
+### 2. 上传文件
+
+把本目录下的全部内容推上去：
+
+```bash
+cd hk-rent-monitor
+git init
+git add -A
+git commit -m "init"
+git branch -M main
+git remote add origin https://github.com/<你的用户名>/<仓库名>.git
+git push -u origin main
+```
+
+> ⚠️ 注意：`.github/workflows/refresh.yml` 这个文件必须一起上传。Windows 上 `.github` 是隐藏目录，用命令行 `git add -A` 不会有问题，但用图形界面拖拽时容易漏掉。
+
+### 3. 打开 GitHub Pages
+
+仓库页 → **Settings** → 左侧 **Pages** → Source 选 **Deploy from a branch** → Branch 选 **main**、目录选 **/ (root)** → Save。
+
+等一两分钟，页面上会给出网址，形如：
+
+```
+https://<你的用户名>.github.io/<仓库名>/
+```
+
+这就是手机可以打开的链接，内容和之前的分享链接一样。
+
+### 4. 先手动跑一次
+
+仓库页 → **Actions** → 左侧选「刷新租房数据」→ 右侧 **Run workflow** → 绿色按钮。
+
+跑完后：
+- **Actions** 页面能看到执行日志和本次的变化汇总
+- 仓库里 `data/changes.md` 会更新
+- 网址上的数据日期会变成当天
+
+**这一步同时也是在验证 28Hse 会不会屏蔽 GitHub 的境外服务器。** 如果日志里出现大量 `网络失败`，说明被挡了，那就得换方案（见文末）。
+
+### 5. 之后就自动了
+
+每周一香港时间早上 8 点自动跑一次。想临时刷新，随时点 **Run workflow** —— 这个按钮**在手机浏览器上也能点**，等于随身带了个刷新开关。
+
+---
+
+## 文件说明
+
+| 文件 | 作用 |
+|---|---|
+| `scrape.py` | 巡检脚本。逐个核对在架状态与租金，写回 `data/spots.json` 与 `data/changes.md` |
+| `build.py` | 把 `data/spots.json` 注入模板，生成 `index.html` |
+| `data/spots.json` | **数据主文件**。房源状态、价格历史、下架与剔除标记都在这里 |
+| `data/changes.md` | 每次巡检的变化报告（新增下架 / 改价） |
+| `template/index.html` | 页面模板，含 `__SPOTS__` / `__META__` 占位符。**改样式改这里** |
+| `index.html` | 由 `build.py` 生成，GitHub Pages 实际对外提供的文件。**不要手改** |
+| `fix_mismatch.py` | 一次性数据订正脚本，把链接错配的条目标记为剔除 |
+
+## 本地试跑
+
+```bash
+python scrape.py --limit 5      # 只查 5 条
+python scrape.py --id f1        # 只查指定房源
+python scrape.py --dry          # 只打印，不写回文件
+python build.py                 # 用当前数据重新生成页面
+```
+
+只需要 Python 3.8+，**没有任何第三方依赖**。
+
+## 判定逻辑
+
+`scrape.py` 用三条独立信号判断房源是否已下架，保守处理：
+
+1. HTTP 404 / 410
+2. 页面出现「已下架 / 已租出 / 已成交」等字样
+3. 页面标题里找不到 `#房源编号`（多半被重定向到列表页了）
+
+抓不到租金但上述信号都没触发 → **保留在架**，只在日志里标注。
+
+另外，租金变动**超过 30%** 的会在报告里标 ⚠️，因为这种幅度通常是链接指向了另一套房，而不是真的调价。
+
+## 想改频率
+
+编辑 `.github/workflows/refresh.yml` 里的 `cron`。GitHub 用的是 **UTC**，香港时间要减 8 小时：
+
+| 想要的香港时间 | cron 写法 |
+|---|---|
+| 每周一 08:00 | `'0 0 * * 1'` |
+| 每天 08:00 | `'0 0 * * *'` |
+| 每周一、四 09:00 | `'0 1 * * 1,4'` |
+
+## 如果 28Hse 屏蔽了 GitHub 的服务器
+
+症状：Actions 日志里大量 `网络失败`，或 `在架 0 套`。
+
+那就换到国内的云服务（腾讯云函数 SCF / 阿里云函数计算 + COS/OSS 静态网站托管），服务器在境内不会被挡，但需要云账号和一点配置。`scrape.py` 和 `build.py` 可以原样复用。
+
+---
+
+数据来源：28Hse 香港屋网。地图底图：高德栅格瓦片 + Leaflet。

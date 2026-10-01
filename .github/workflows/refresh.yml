@@ -1,0 +1,49 @@
+name: 刷新租房数据
+
+on:
+  schedule:
+    # 每周一 00:00 UTC = 香港时间 08:00（GitHub 的 cron 一律用 UTC）
+    - cron: '0 0 * * 1'
+  workflow_dispatch:          # 允许手动触发：仓库页 Actions → 本工作流 → Run workflow
+
+permissions:
+  contents: write             # 需要写权限才能把更新提交回仓库
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: 取出仓库
+        uses: actions/checkout@v4
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # scrape.py 只用标准库（urllib），不需要 pip install
+      - name: 巡检 28Hse 在架状态与最新租金
+        run: python scrape.py
+
+      - name: 用最新数据重新生成页面
+        run: python build.py
+
+      - name: 提交更新（无变化则跳过）
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "本次巡检没有发现变化，跳过提交"
+          else
+            git commit -m "data: 自动巡检 $(date -u +%Y-%m-%d)"
+            git push
+            echo "已提交更新"
+          fi
+
+      - name: 汇总
+        run: |
+          echo "### 本次巡检结果" >> $GITHUB_STEP_SUMMARY
+          cat data/changes.md >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,5528 @@
+[
+  {
+    "id": "w1",
+    "name": "旺角 长旺大厦",
+    "addr": "長旺道17号",
+    "price": 8000,
+    "area": 210,
+    "room": "一房",
+    "floor": "中层 (4-13/13楼)",
+    "year": 1970,
+    "ynote": "",
+    "note": "平地电梯，一房一厅，连平台；同厦另有 238 尺放盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3957049",
+    "lat": 22.316786,
+    "lng": 114.171585,
+    "wgs": [
+      22.31953,
+      114.16661
+    ],
+    "ride": 19,
+    "feed": "步行约5分钟到旺角站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8000
+      }
+    ],
+    "siteName": "长旺大厦"
+  },
+  {
+    "id": "w2",
+    "name": "旺角 长兴大厦",
+    "addr": "長旺道15号",
+    "price": 8500,
+    "area": 210,
+    "room": "一房",
+    "floor": "低层 (1-10/13楼)",
+    "year": 1970,
+    "ynote": "",
+    "note": "一房一厅，独立单位，平地电梯，3 分钟到旺角站",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3997161",
+    "lat": 22.316916,
+    "lng": 114.171375,
+    "wgs": [
+      22.31966,
+      114.1664
+    ],
+    "ride": 19,
+    "feed": "步行约5分钟到旺角站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8500
+      }
+    ],
+    "siteName": "长兴大厦"
+  },
+  {
+    "id": "w3",
+    "name": "旺角 长辉大厦",
+    "addr": "塘尾道22号",
+    "price": 8500,
+    "area": 208,
+    "room": "开放式",
+    "floor": "高层 (5-14/14楼)",
+    "year": 1968,
+    "ynote": "",
+    "note": "高层开放式，全屋翻新、三边窗，一手入住",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4028142",
+    "lat": 22.316557,
+    "lng": 114.171206,
+    "wgs": [
+      22.3193,
+      114.16623
+    ],
+    "ride": 19,
+    "feed": "步行约5分钟到旺角站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8500
+      }
+    ],
+    "siteName": "长辉大厦"
+  },
+  {
+    "id": "w4",
+    "name": "旺角 广福大厦",
+    "addr": "廣東道977号",
+    "price": 7800,
+    "area": 230,
+    "room": "一房",
+    "floor": "中层",
+    "year": 1964,
+    "ynote": "",
+    "note": "230 尺大开放式，朗豪坊一带，洋楼有电梯",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3991547",
+    "lat": 22.313925,
+    "lng": 114.172502,
+    "wgs": [
+      22.31667,
+      114.16753
+    ],
+    "ride": 19,
+    "feed": "步行约6分钟到旺角站",
+    "feedMin": 6,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 7800
+      }
+    ],
+    "siteName": "广福大厦"
+  },
+  {
+    "id": "w5",
+    "name": "旺角 康乐大楼",
+    "addr": "亞皆老街72号",
+    "price": 7300,
+    "area": 230,
+    "room": "一房",
+    "floor": "低层 (1-10/11楼) ",
+    "year": 1959,
+    "ynote": "",
+    "note": "一房，电梯有管理、租金含上网，地铁 3 分钟",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4016770",
+    "lat": 22.316846,
+    "lng": 114.17685,
+    "wgs": [
+      22.3196,
+      114.17189
+    ],
+    "ride": 19,
+    "feed": "步行约4分钟到旺角站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 7300
+      }
+    ],
+    "siteName": "康乐大楼"
+  },
+  {
+    "id": "w6",
+    "name": "旺角 先施大厦",
+    "addr": "亞皆老街83号",
+    "price": 8000,
+    "area": 180,
+    "room": "开放式",
+    "floor": "高层 (7-16/16楼) ",
+    "year": 1963,
+    "ynote": "",
+    "note": "亚皆老街高层，豪华装修，近旺角东及旺角站",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4009688",
+    "lat": 22.317018,
+    "lng": 114.175713,
+    "wgs": [
+      22.31977,
+      114.17075
+    ],
+    "ride": 19,
+    "feed": "步行约2分钟到旺角站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8000
+      }
+    ],
+    "siteName": "先施大厦"
+  },
+  {
+    "id": "y1",
+    "name": "油麻地 海威大厦",
+    "addr": "廣東道887号",
+    "price": 9800,
+    "area": 236,
+    "room": "一房",
+    "floor": "高层 (12-21/21楼)",
+    "year": 1985,
+    "ynote": "",
+    "note": "一房一厅、高层多窗、一梯两伙；同厦多间放盘可比价",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3964877",
+    "lat": 22.312065,
+    "lng": 114.172881,
+    "wgs": [
+      22.31481,
+      114.16791
+    ],
+    "ride": 17,
+    "feed": "步行约6分钟到油麻地站",
+    "feedMin": 6,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9800
+      }
+    ],
+    "siteName": "海威大厦"
+  },
+  {
+    "id": "y3",
+    "name": "油麻地 华德大厦",
+    "addr": "窩打老道1A号",
+    "price": 4500,
+    "area": 130,
+    "room": "开放式",
+    "floor": "低层 (1-10/17楼) ",
+    "year": 1964,
+    "ynote": "",
+    "note": "开放式低层，是全批最便宜的一套；屋苑实用 189–610 尺，建议现场核实面积口径",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4005708",
+    "lat": 22.309925,
+    "lng": 114.172731,
+    "wgs": [
+      22.31267,
+      114.16776
+    ],
+    "ride": 17,
+    "feed": "步行约5分钟到油麻地站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 4500
+      }
+    ],
+    "siteName": "华德大厦"
+  },
+  {
+    "id": "y4",
+    "name": "油麻地 上海街370号",
+    "addr": "上海街370号",
+    "price": 7300,
+    "area": 230,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1966,
+    "ynote": "",
+    "note": "一房一厅新装修，2 分钟到油麻地站，邻近都大/城大/理大",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3210247",
+    "lat": 22.310692,
+    "lng": 114.174446,
+    "wgs": [
+      22.31344,
+      114.16948
+    ],
+    "ride": 17,
+    "feed": "步行约2分钟到油麻地站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 7300
+      }
+    ],
+    "siteName": "上海街370号"
+  },
+  {
+    "id": "y6",
+    "name": "油麻地 东安阁",
+    "addr": "東安街17号",
+    "price": 9200,
+    "area": 193,
+    "room": "开放式",
+    "floor": "高层 (11-20/20楼)",
+    "year": 1986,
+    "ynote": "",
+    "note": "高层开放式连私人露台，一梯两伙，近油麻地站",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4000333",
+    "lat": 22.311245,
+    "lng": 114.172602,
+    "wgs": [
+      22.31399,
+      114.16763
+    ],
+    "ride": 17,
+    "feed": "步行约6分钟到油麻地站",
+    "feedMin": 6,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9200
+      }
+    ],
+    "siteName": "东安阁"
+  },
+  {
+    "id": "j1",
+    "name": "佐敦 文苑楼",
+    "addr": "文苑街2号",
+    "price": 5600,
+    "area": 185,
+    "room": "一房",
+    "floor": "高层 (9-18/18楼) ",
+    "year": 1964,
+    "ynote": "",
+    "note": "罕有高层平地电梯，一房一厅，清静；同区文英/文景/文辉楼成片可选",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3866948",
+    "lat": 22.304818,
+    "lng": 114.172162,
+    "wgs": [
+      22.30756,
+      114.16719
+    ],
+    "ride": 15,
+    "feed": "步行约9分钟到佐敦站",
+    "feedMin": 9,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 5600
+      }
+    ],
+    "siteName": "文苑楼"
+  },
+  {
+    "id": "j2",
+    "name": "佐敦 福乐大厦",
+    "addr": "佐敦道21号",
+    "price": 6900,
+    "area": 180,
+    "room": "一房",
+    "floor": "低层 (3-12/16楼) ",
+    "year": 1963,
+    "ynote": "",
+    "note": "业主盘免佣，低层一房，佐敦站上盖一带",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3637111",
+    "lat": 22.302741,
+    "lng": 114.176062,
+    "wgs": [
+      22.30549,
+      114.1711
+    ],
+    "ride": 15,
+    "feed": "步行约2分钟到佐敦站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 6900
+      }
+    ],
+    "siteName": "福乐大厦"
+  },
+  {
+    "id": "j3",
+    "name": "佐敦 馀庆大厦",
+    "addr": "佐敦道26B号",
+    "price": 5800,
+    "area": 150,
+    "room": "一房",
+    "floor": "低层 (3-12/16楼)",
+    "year": 1967,
+    "ynote": "",
+    "note": "一房，时尚靓装，地段极佳，平地电梯",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4025374",
+    "lat": 22.302243,
+    "lng": 114.175204,
+    "wgs": [
+      22.30499,
+      114.17024
+    ],
+    "ride": 15,
+    "feed": "步行约3分钟到佐敦站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 5800
+      }
+    ],
+    "siteName": "馀庆大厦"
+  },
+  {
+    "id": "j5",
+    "name": "佐敦 康信大厦",
+    "addr": "吳松街166号",
+    "price": 8980,
+    "area": 200,
+    "room": "一房",
+    "floor": "低层 (2-11/16楼)",
+    "year": 1976,
+    "ynote": "",
+    "note": "低层一房一厅，吴松街，近佐敦站",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4020210",
+    "lat": 22.301013,
+    "lng": 114.175214,
+    "wgs": [
+      22.30376,
+      114.17025
+    ],
+    "ride": 15,
+    "feed": "步行约3分钟到佐敦站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8980
+      }
+    ],
+    "siteName": "康信大厦"
+  },
+  {
+    "id": "s1",
+    "name": "长沙湾 新元洲大厦",
+    "addr": "元州街151号",
+    "price": 6800,
+    "area": 170,
+    "room": "开放式",
+    "floor": "中层 (2-11/11楼) ",
+    "year": 1963,
+    "ynote": "",
+    "note": "中层开放式，光猛，平地电梯，近长沙湾站",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4000267",
+    "lat": 22.331364,
+    "lng": 114.165662,
+    "wgs": [
+      22.3341,
+      114.16067
+    ],
+    "ride": 25,
+    "feed": "步行约8分钟到长沙湾站",
+    "feedMin": 8,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 6500
+      },
+      {
+        "date": "2026-10-01",
+        "price": 6800
+      }
+    ],
+    "siteName": "新元洲大厦"
+  },
+  {
+    "id": "s2",
+    "name": "长沙湾 恒宁阁",
+    "addr": "順寧道253号",
+    "price": 11800,
+    "area": 258,
+    "room": "一房",
+    "floor": "中层 C室",
+    "year": 1981,
+    "ynote": "",
+    "note": "中层一房，向东北，邻近地铁，配套齐全",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4028220",
+    "lat": 22.334297,
+    "lng": 114.163827,
+    "wgs": [
+      22.33703,
+      114.15883
+    ],
+    "ride": 25,
+    "feed": "步行约5分钟到长沙湾站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11800
+      }
+    ],
+    "siteName": "恒宁阁"
+  },
+  {
+    "id": "s4",
+    "name": "长沙湾 顺发大厦",
+    "addr": "順寧道445号",
+    "price": 9000,
+    "area": 159,
+    "room": "开放式",
+    "floor": "中层 (6-15/24楼) ",
+    "year": 1988,
+    "ynote": "",
+    "note": "中层开放式，平地电梯、有保安，2 边窗",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4027277",
+    "lat": 22.336431,
+    "lng": 114.161004,
+    "wgs": [
+      22.33916,
+      114.156
+    ],
+    "ride": 25,
+    "feed": "步行约7分钟到长沙湾站",
+    "feedMin": 7,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9000
+      }
+    ],
+    "siteName": "顺发大厦"
+  },
+  {
+    "id": "h1",
+    "name": "何文田 怡富大厦",
+    "addr": "山谷道10号",
+    "price": 12000,
+    "area": 244,
+    "room": "一房",
+    "floor": "低层 (1-10/25楼) ",
+    "year": 1985,
+    "ynote": "",
+    "note": "低层一房一厅，距何文田站仅约 70 米，屯马线一站到红磡再转东铁线",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4033922",
+    "lat": 22.306967,
+    "lng": 114.188349,
+    "wgs": [
+      22.30974,
+      114.18342
+    ],
+    "ride": 15,
+    "feed": "步行约1分钟到何文田站",
+    "feedMin": 1,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 12000
+      }
+    ],
+    "siteName": "怡富大厦"
+  },
+  {
+    "id": "k1",
+    "name": "葵涌 葵龙大厦",
+    "addr": "大陇街63号（石篱·上葵涌）",
+    "price": 12000,
+    "area": 378,
+    "room": "两房",
+    "floor": "低层 (1-10/20楼)",
+    "year": 1973,
+    "ynote": "",
+    "note": "原表内 a1/a7/a18 三条实为同一栋葵龙大厦（378 尺），已合并（1973）",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3996189",
+    "lat": 22.362626,
+    "lng": 114.14294,
+    "wgs": [
+      22.36533,
+      114.13789
+    ],
+    "ride": 33,
+    "feed": "步行约12分钟到葵兴站",
+    "feedMin": 12,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 12000
+      }
+    ],
+    "siteName": "葵龙大厦"
+  },
+  {
+    "id": "c1",
+    "name": "太子 单幢洋楼",
+    "addr": "太子（2分钟到太子站）",
+    "price": 9500,
+    "area": 120,
+    "room": "一房",
+    "floor": "低层",
+    "year": 0,
+    "ynote": "待核实",
+    "note": "全新装修连家俬，有电梯，可即时入住；楼龄待核实",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4034296",
+    "lat": 22.32225,
+    "lng": 114.174268,
+    "wgs": [
+      22.325,
+      114.1693
+    ],
+    "ride": 21,
+    "feed": "步行约1分钟到太子站",
+    "feedMin": 1,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9500
+      }
+    ],
+    "siteName": "单幢楼房"
+  },
+  {
+    "id": "c2",
+    "name": "太子 南风楼",
+    "addr": "太子道西76-78号",
+    "price": 7600,
+    "area": 170,
+    "room": "一房",
+    "floor": "1楼",
+    "year": 1966,
+    "ynote": "",
+    "note": "企理实用一房连家电；洋楼有电梯，楼龄59年",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3996387",
+    "lat": 22.320997,
+    "lng": 114.170478,
+    "wgs": [
+      22.32374,
+      114.1655
+    ],
+    "ride": 21,
+    "feed": "步行约6分钟到太子站",
+    "feedMin": 6,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 7600
+      }
+    ],
+    "siteName": "南风楼"
+  },
+  {
+    "id": "c3",
+    "name": "太子 宏华大楼",
+    "addr": "广东道1231号",
+    "price": 8600,
+    "area": 150,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1964,
+    "ynote": "",
+    "note": "开放式，靓装修、乾湿分厕；洋楼有电梯，楼龄62年",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4004897",
+    "lat": 22.321166,
+    "lng": 114.170927,
+    "wgs": [
+      22.32391,
+      114.16595
+    ],
+    "ride": 21,
+    "feed": "步行约5分钟到太子站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8600
+      }
+    ],
+    "siteName": "宏华大楼"
+  },
+  {
+    "id": "c4",
+    "name": "太子 宏华大楼",
+    "addr": "广东道1231号",
+    "price": 8600,
+    "area": 170,
+    "room": "开放式",
+    "floor": "高层",
+    "year": 1964,
+    "ynote": "",
+    "note": "全屋新装、乾湿分离；同厦高层单位",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3997350",
+    "lat": 22.321256,
+    "lng": 114.171036,
+    "wgs": [
+      22.324,
+      114.16606
+    ],
+    "ride": 21,
+    "feed": "步行约5分钟到太子站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8600
+      }
+    ],
+    "siteName": "宏华大楼"
+  },
+  {
+    "id": "c5",
+    "name": "太子 金华大楼",
+    "addr": "西洋菜北街181-185号",
+    "price": 8800,
+    "area": 150,
+    "room": "一房一厅",
+    "floor": "低层 G室",
+    "year": 1961,
+    "ynote": "",
+    "note": "一房一厅、齐家电、乾湿分离、包新床褥；洋楼有电梯，楼龄65年",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4002844",
+    "lat": 22.323601,
+    "lng": 114.1733,
+    "wgs": [
+      22.32635,
+      114.16833
+    ],
+    "ride": 21,
+    "feed": "步行约3分钟到太子站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8800
+      }
+    ],
+    "siteName": "金华大楼"
+  },
+  {
+    "id": "c6",
+    "name": "深水埗 东成大厦",
+    "addr": "南昌街61-65号",
+    "price": 6500,
+    "area": 150,
+    "room": "一房一厅",
+    "floor": "低层 A室",
+    "year": 0,
+    "ynote": "待核实",
+    "note": "一房一厅、有电梯，租金是候选中最抵的一档；楼龄待核实",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3978222",
+    "lat": 22.325133,
+    "lng": 114.166738,
+    "wgs": [
+      22.32787,
+      114.16175
+    ],
+    "ride": 23,
+    "feed": "步行约5分钟到深水埗站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 6500
+      }
+    ],
+    "siteName": "东成大厦(南昌街)"
+  },
+  {
+    "id": "c7",
+    "name": "深水埗 宝丰大厦",
+    "addr": "南昌街54号",
+    "price": 6500,
+    "area": 160,
+    "room": "一房",
+    "floor": "低层 B室",
+    "year": 1971,
+    "ynote": "",
+    "note": "单位开扬；洋楼有电梯，楼龄55年",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4021616",
+    "lat": 22.324503,
+    "lng": 114.166818,
+    "wgs": [
+      22.32724,
+      114.16183
+    ],
+    "ride": 23,
+    "feed": "步行约6分钟到深水埗站",
+    "feedMin": 6,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 6500
+      }
+    ],
+    "siteName": "宝丰大厦"
+  },
+  {
+    "id": "c8",
+    "name": "深水埗 永明大厦",
+    "addr": "钦州街34-42号",
+    "price": 7600,
+    "area": 180,
+    "room": "一房一厅",
+    "floor": "中层 C室",
+    "year": 1971,
+    "ynote": "",
+    "note": "大一房一厅、多窗、有电梯，近西铁；楼龄55年",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4001509",
+    "lat": 22.324193,
+    "lng": 114.167257,
+    "wgs": [
+      22.32693,
+      114.16227
+    ],
+    "ride": 23,
+    "feed": "步行约6分钟到深水埗站",
+    "feedMin": 6,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 7600
+      }
+    ],
+    "siteName": "永明大厦"
+  },
+  {
+    "id": "c9",
+    "name": "深水埗 海坛大厦",
+    "addr": "海坛街145-149号",
+    "price": 8500,
+    "area": 188,
+    "room": "一房一厅",
+    "floor": "中层",
+    "year": 1982,
+    "ynote": "",
+    "note": "平地电梯直达、188尺一房一厅，中介称\"好过租劏房\"；楼龄44年",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4032507",
+    "lat": 22.324026,
+    "lng": 114.165502,
+    "wgs": [
+      22.32676,
+      114.16051
+    ],
+    "ride": 23,
+    "feed": "步行约7分钟到深水埗站",
+    "feedMin": 7,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8500
+      }
+    ],
+    "siteName": "海坛大厦"
+  },
+  {
+    "id": "c10",
+    "name": "深水埗 崇雅楼",
+    "addr": "长沙湾道34-36A号",
+    "price": 8800,
+    "area": 251,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1967,
+    "ynote": "",
+    "note": "251尺开放式，面积是深水埗组最大；楼龄59年",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4017441",
+    "lat": 22.324874,
+    "lng": 114.171685,
+    "wgs": [
+      22.32762,
+      114.16671
+    ],
+    "ride": 21,
+    "feed": "步行约6分钟到太子站",
+    "feedMin": 6,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8800
+      }
+    ],
+    "siteName": "崇雅楼"
+  },
+  {
+    "id": "c11",
+    "name": "深水埗 祥辉大厦",
+    "addr": "九江街166-168号",
+    "price": 8800,
+    "area": 145,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1985,
+    "ynote": "",
+    "note": "独立单位私人空间，实用开放式可当一房用；楼龄41年",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4019168",
+    "lat": 22.331881,
+    "lng": 114.167187,
+    "wgs": [
+      22.33462,
+      114.1622
+    ],
+    "ride": 23,
+    "feed": "步行约8分钟到深水埗站",
+    "feedMin": 8,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8800
+      }
+    ],
+    "siteName": "祥辉大厦"
+  },
+  {
+    "id": "c12",
+    "name": "深水埗 祥康大厦",
+    "addr": "长沙湾道119号",
+    "price": 9500,
+    "area": 180,
+    "room": "一房一厅",
+    "floor": "高层 A室",
+    "year": 1966,
+    "ynote": "",
+    "note": "全新装修、一房一厅、乾湿分离、电梯洋楼；楼龄60年",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4013704",
+    "lat": 22.325988,
+    "lng": 114.169511,
+    "wgs": [
+      22.32873,
+      114.16453
+    ],
+    "ride": 23,
+    "feed": "步行约5分钟到深水埗站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9500
+      }
+    ],
+    "siteName": "祥康大厦"
+  },
+  {
+    "id": "c13",
+    "name": "深水埗 温馨阁",
+    "addr": "汝州街295号",
+    "price": 9500,
+    "area": 210,
+    "room": "一房一厅",
+    "floor": "中层 B室",
+    "year": 1996,
+    "ynote": "",
+    "note": "210尺一房一厅、平地电梯，中介称\"1分钟到地铁站，好过住劏房\"；楼龄30年",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4016463",
+    "lat": 22.327695,
+    "lng": 114.165542,
+    "wgs": [
+      22.33043,
+      114.16055
+    ],
+    "ride": 23,
+    "feed": "步行约3分钟到深水埗站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9500
+      }
+    ],
+    "siteName": "温馨阁"
+  },
+  {
+    "id": "c14",
+    "name": "大角咀 富贵大厦",
+    "addr": "富贵街12号",
+    "price": 7600,
+    "area": 265,
+    "room": "开放式",
+    "floor": "西座 中层",
+    "year": 1961,
+    "ynote": "",
+    "note": "265尺独立单位、平地电梯，面积大租金低；楼龄65年",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4018268",
+    "lat": 22.316656,
+    "lng": 114.166488,
+    "wgs": [
+      22.31939,
+      114.1615
+    ],
+    "ride": 20,
+    "feed": "步行约3分钟到奥运站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 7600
+      }
+    ],
+    "siteName": "富贵大厦"
+  },
+  {
+    "id": "a2",
+    "name": "葵涌 葵星中心",
+    "addr": "和宜合道3号",
+    "price": 10800,
+    "area": 369,
+    "room": "开放式 / 两房",
+    "floor": "B座 低层",
+    "year": 1981,
+    "ynote": "",
+    "note": "新鸿基屋苑，候选中离葵兴站最近的一批，有商场及餐饮配套",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4015292",
+    "lat": 22.36293,
+    "lng": 114.140616,
+    "wgs": [
+      22.36563,
+      114.13556
+    ],
+    "ride": 33,
+    "feed": "步行约9分钟到葵兴站",
+    "feedMin": 9,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10800
+      }
+    ],
+    "siteName": "葵星中心"
+  },
+  {
+    "id": "a3",
+    "name": "大埔 上然",
+    "addr": "马窝路19号（半山，非白石角）",
+    "price": 10500,
+    "area": 244,
+    "room": "开放式",
+    "floor": "3期 第5座 高层",
+    "year": 2026,
+    "ynote": "全新",
+    "note": "万科香港，6座1650伙，2026年全新入伙有会所。注意：地址在大埔马窝半山，不是白石角，到大埔墟站需接驳；同盘一房户型约 HK$12,000",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4030040",
+    "lat": 22.440912,
+    "lng": 114.164153,
+    "wgs": [
+      22.44366,
+      114.15915
+    ],
+    "ride": 29,
+    "feed": "步行约18分钟到大埔墟站",
+    "feedMin": 18,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10500
+      }
+    ],
+    "siteName": "上然"
+  },
+  {
+    "id": "a4",
+    "name": "粉岭 粉岭名都",
+    "addr": "粉岭车站路18号（港铁粉岭站上盖）",
+    "price": 11800,
+    "area": 376,
+    "room": "两房",
+    "floor": "龙腾阁（4座）中层",
+    "year": 1993,
+    "ynote": "",
+    "note": "华懋屋苑，7座1280伙，有泳池及基座商场。东铁线直达会展、全程不转车，是候选中唯一门到门压在40分钟内的盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4030519",
+    "lat": 22.489803,
+    "lng": 114.144695,
+    "wgs": [
+      22.49252,
+      114.13964
+    ],
+    "ride": 34,
+    "feed": "步行约2分钟到粉岭站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11800
+      }
+    ],
+    "siteName": "粉岭名都"
+  },
+  {
+    "id": "a5",
+    "name": "粉岭 碧湖花园",
+    "addr": "一鸣路15号",
+    "price": 12000,
+    "area": 441,
+    "room": "两房",
+    "floor": "1座 中层",
+    "year": 1994,
+    "ynote": "",
+    "note": "信和屋苑，7座1316伙，会所泳池齐备，441尺为候选中最大面积",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4030122",
+    "lat": 22.485009,
+    "lng": 114.147797,
+    "wgs": [
+      22.48773,
+      114.14275
+    ],
+    "ride": 34,
+    "feed": "步行约11分钟到粉岭站",
+    "feedMin": 11,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 12000
+      }
+    ],
+    "siteName": "碧湖花园"
+  },
+  {
+    "id": "a6",
+    "name": "葵涌 志昌楼",
+    "addr": "大陇街20号（石篱·上葵涌）",
+    "price": 9800,
+    "area": 267,
+    "room": "开放式",
+    "floor": "高层",
+    "year": 1973,
+    "ynote": "",
+    "note": "候选中租金最低，单幢式大厦，无会所配套，位于上葵涌半山",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3995382",
+    "lat": 22.362068,
+    "lng": 114.141603,
+    "wgs": [
+      22.36477,
+      114.13655
+    ],
+    "ride": 33,
+    "feed": "步行约10分钟到葵兴站",
+    "feedMin": 10,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9800
+      }
+    ],
+    "siteName": "葵涌志昌楼"
+  },
+  {
+    "id": "a8",
+    "name": "粉岭 One Innovale",
+    "addr": "马适路8号（近联和墟）",
+    "price": 12000,
+    "area": 310,
+    "room": "两房（一房半）",
+    "floor": "Archway B座 高层",
+    "year": 2022,
+    "ynote": "",
+    "note": "豪华装修、望园景，楼龄较新但年份待核实",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4028903",
+    "lat": 22.500034,
+    "lng": 114.150402,
+    "wgs": [
+      22.50276,
+      114.14536
+    ],
+    "ride": 34,
+    "feed": "步行约17分钟到粉岭站",
+    "feedMin": 17,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 12000
+      }
+    ],
+    "siteName": "One Innovale"
+  },
+  {
+    "id": "a9",
+    "name": "大埔 上然 一房",
+    "addr": "马窝路19号",
+    "price": 12000,
+    "area": 303,
+    "room": "一房",
+    "floor": "3期 第5座 中层",
+    "year": 2026,
+    "ynote": "全新",
+    "note": "同一屋苑的一房单位，有独立睡房，2026年全新入伙",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4028729",
+    "lat": 22.441032,
+    "lng": 114.164023,
+    "wgs": [
+      22.44378,
+      114.15902
+    ],
+    "ride": 29,
+    "feed": "步行约18分钟到大埔墟站",
+    "feedMin": 18,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 12000
+      }
+    ],
+    "siteName": "上然"
+  },
+  {
+    "id": "a10",
+    "name": "大埔 上然 一房",
+    "addr": "马窝路19号",
+    "price": 12000,
+    "area": 344,
+    "room": "一房",
+    "floor": "2期 第6座 中层 A1室",
+    "year": 2026,
+    "ynote": "全新",
+    "note": "344尺一房，候选中面积较大的一房，基本装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4028353",
+    "lat": 22.440792,
+    "lng": 114.164282,
+    "wgs": [
+      22.44354,
+      114.15928
+    ],
+    "ride": 29,
+    "feed": "步行约18分钟到大埔墟站",
+    "feedMin": 18,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 12000
+      }
+    ],
+    "siteName": "上然"
+  },
+  {
+    "id": "a11",
+    "name": "大埔 上然 一房",
+    "addr": "马窝路19号",
+    "price": 12000,
+    "area": 305,
+    "room": "一房",
+    "floor": "3期 第5座 低层",
+    "year": 2026,
+    "ynote": "全新",
+    "note": "望楼景市景，包家电",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4027841",
+    "lat": 22.440972,
+    "lng": 114.164322,
+    "wgs": [
+      22.44372,
+      114.15932
+    ],
+    "ride": 29,
+    "feed": "步行约18分钟到大埔墟站",
+    "feedMin": 18,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 12000
+      }
+    ],
+    "siteName": "上然"
+  },
+  {
+    "id": "a12",
+    "name": "大埔 上然 一房",
+    "addr": "马窝路19号",
+    "price": 11500,
+    "area": 307,
+    "room": "一房",
+    "floor": "2期 第7座 中层",
+    "year": 2026,
+    "ynote": "全新",
+    "note": "有会所、露台，豪华装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4026536",
+    "lat": 22.440772,
+    "lng": 114.163983,
+    "wgs": [
+      22.44352,
+      114.15898
+    ],
+    "ride": 29,
+    "feed": "步行约18分钟到大埔墟站",
+    "feedMin": 18,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11500
+      }
+    ],
+    "siteName": "上然"
+  },
+  {
+    "id": "a15",
+    "name": "粉岭 粉岭名都",
+    "addr": "粉岭车站路18号（港铁粉岭站上盖）",
+    "price": 11800,
+    "area": 369,
+    "room": "两房",
+    "floor": "富临阁（6座）高层",
+    "year": 1993,
+    "ynote": "",
+    "note": "富临阁高层，东南向，包家私家电，独家盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4021376",
+    "lat": 22.490234,
+    "lng": 114.144106,
+    "wgs": [
+      22.49295,
+      114.13905
+    ],
+    "ride": 34,
+    "feed": "步行约2分钟到粉岭站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11800
+      }
+    ],
+    "siteName": "粉岭名都"
+  },
+  {
+    "id": "a16",
+    "name": "粉岭 粉岭名都",
+    "addr": "粉岭车站路18号（港铁粉岭站上盖）",
+    "price": 12000,
+    "area": 399,
+    "room": "两房",
+    "floor": "雅碧阁（1座）中层",
+    "year": 1993,
+    "ynote": "",
+    "note": "雅碧阁中层，车站旁边，罕有靓装放租",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4013647",
+    "lat": 22.489113,
+    "lng": 114.145193,
+    "wgs": [
+      22.49183,
+      114.14014
+    ],
+    "ride": 34,
+    "feed": "步行约3分钟到粉岭站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 12000
+      }
+    ],
+    "siteName": "粉岭名都"
+  },
+  {
+    "id": "a17",
+    "name": "葵涌 葵星中心 两房",
+    "addr": "和宜合道3号",
+    "price": 11000,
+    "area": 369,
+    "room": "两房",
+    "floor": "B座 低层 5室",
+    "year": 1981,
+    "ynote": "",
+    "note": "新装修独家盘，只租1–2人，有冷气热水炉抽油烟机",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4014343",
+    "lat": 22.362819,
+    "lng": 114.140775,
+    "wgs": [
+      22.36552,
+      114.13572
+    ],
+    "ride": 33,
+    "feed": "步行约9分钟到葵兴站",
+    "feedMin": 9,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11000
+      }
+    ],
+    "siteName": "葵星中心"
+  },
+  {
+    "id": "a19",
+    "name": "葵涌 德昌大厦",
+    "addr": "葵涌道1001号（近葵兴邨）",
+    "price": 10200,
+    "area": 300,
+    "room": "一房",
+    "floor": "低层 L室",
+    "year": 1974,
+    "ynote": "",
+    "note": "罕有放盘，连约千尺超大平台，室内300尺但户外空间极大",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3530989",
+    "lat": 22.364502,
+    "lng": 114.13841,
+    "wgs": [
+      22.3672,
+      114.13335
+    ],
+    "ride": 33,
+    "feed": "步行约8分钟到葵兴站",
+    "feedMin": 8,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10200
+      }
+    ],
+    "siteName": "德昌大厦"
+  },
+  {
+    "id": "a20",
+    "name": "葵涌 豪华阁",
+    "addr": "大白田街41号（石荫·上葵涌）",
+    "price": 10800,
+    "area": 273,
+    "room": "两房",
+    "floor": "中层",
+    "year": 1973,
+    "ynote": "",
+    "note": "中层开扬，雅致装修，望楼景",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4019393",
+    "lat": 22.365073,
+    "lng": 114.144976,
+    "wgs": [
+      22.36778,
+      114.13993
+    ],
+    "ride": 33,
+    "feed": "步行约15分钟到葵兴站",
+    "feedMin": 15,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10800
+      }
+    ],
+    "siteName": "豪华阁"
+  },
+  {
+    "id": "b1",
+    "name": "红磡 环海东岸",
+    "addr": "崇安街23号（屯马线土瓜湾站）",
+    "price": 13000,
+    "area": 218,
+    "room": "开放式",
+    "floor": "第1C座 中层",
+    "year": 2018,
+    "ynote": "",
+    "note": "2018 年入伙的单幢新楼。注意：原表按「红磡站 5 分钟」估算有误——楼盘在崇安街，实际最近的是土瓜湾站（约 400 米）；土瓜湾→红磡 2 站再转东铁线过海",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4025223",
+    "lat": 22.310246,
+    "lng": 114.193974,
+    "wgs": [
+      22.31303,
+      114.18906
+    ],
+    "ride": 17,
+    "feed": "步行约7分钟到土瓜湾站",
+    "feedMin": 7,
+    "ok": false,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 13000
+      }
+    ],
+    "siteName": "环海东岸"
+  },
+  {
+    "id": "b2",
+    "name": "深水埗 海柏汇",
+    "addr": "通州街208号（荃湾线深水埗站）",
+    "price": 35000,
+    "area": 286,
+    "room": "一房",
+    "floor": "低层 D室",
+    "year": 2018,
+    "ynote": "",
+    "note": "恒基屋苑（2018 年入伙），望海景，超预算",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4018339",
+    "lat": 22.323966,
+    "lng": 114.165192,
+    "wgs": [
+      22.3267,
+      114.1602
+    ],
+    "ride": 23,
+    "feed": "步行约8分钟到深水埗站",
+    "feedMin": 8,
+    "ok": false,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 15000
+      },
+      {
+        "date": "2026-10-01",
+        "price": 35000
+      }
+    ],
+    "siteName": "维港湾",
+    "excluded": true,
+    "excludeWhy": "链接指向「维港湾」（$35,000），与本条记录的「海柏汇」不符，属历史数据错配"
+  },
+  {
+    "id": "b4",
+    "name": "沙田 第一城",
+    "addr": "沙田银城街（屯马线石门站）",
+    "price": 13800,
+    "area": 327,
+    "room": "两房",
+    "floor": "2期 20座 中层",
+    "year": 1980,
+    "ynote": "",
+    "note": "长实大型屋苑，两房最低 HK$13,800，超预算；坐标为屋苑中心（置富第一城商场一带），屋苑横跨约 400 米",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4021567",
+    "lat": 22.383558,
+    "lng": 114.208214,
+    "wgs": [
+      22.38638,
+      114.20333
+    ],
+    "ride": 28,
+    "feed": "步行约9分钟到石门站",
+    "feedMin": 9,
+    "ok": false,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 13800
+      }
+    ],
+    "siteName": "沙田第一城"
+  },
+  {
+    "id": "b5",
+    "name": "大围 柏傲庄",
+    "addr": "大围（东铁线大围站上盖）",
+    "price": 23000,
+    "area": 345,
+    "room": "两房",
+    "floor": "II期 7A座 低层",
+    "year": 2022,
+    "ynote": "新盘",
+    "note": "新盘，两房最低 HK$23,000，明显超预算；但东铁线直达、通勤仅 15 分钟",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4021154",
+    "lat": 22.369913,
+    "lng": 114.183725,
+    "wgs": [
+      22.37269,
+      114.17878
+    ],
+    "ride": 15,
+    "feed": "步行约1分钟到大围站",
+    "feedMin": 1,
+    "ok": false,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 23000
+      }
+    ],
+    "siteName": "柏傲庄"
+  },
+  {
+    "id": "e1",
+    "name": "土瓜湾 美景楼1期",
+    "addr": "美景街2-28号",
+    "price": 4500,
+    "area": 160,
+    "room": "一房",
+    "floor": "低层",
+    "year": 1964,
+    "ynote": "",
+    "note": "美景街，洋楼有电梯，业主免佣；一房大厅新装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4007090",
+    "lat": 22.313672,
+    "lng": 114.19564,
+    "wgs": [
+      22.31646,
+      114.19073
+    ],
+    "ride": 17,
+    "feed": "步行约4分钟到土瓜湾站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 4500
+      }
+    ],
+    "siteName": "美景楼1期"
+  },
+  {
+    "id": "e2",
+    "name": "土瓜湾 美景楼2期",
+    "addr": "落山道78号",
+    "price": 6200,
+    "area": 160,
+    "room": "一房",
+    "floor": "高层",
+    "year": 0,
+    "ynote": "",
+    "note": "电梯高层一房一厅，翻新中，近土瓜湾站",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4033646",
+    "lat": 22.313194,
+    "lng": 114.194533,
+    "wgs": [
+      22.31598,
+      114.18962
+    ],
+    "ride": 17,
+    "feed": "步行约2分钟到土瓜湾站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 6200
+      }
+    ],
+    "siteName": "美景楼2期"
+  },
+  {
+    "id": "e3",
+    "name": "土瓜湾 益丰大厦 B座",
+    "addr": "土瓜湾道239号",
+    "price": 6300,
+    "area": 150,
+    "room": "一房",
+    "floor": "中层 (4-13/14楼)",
+    "year": 1972,
+    "ynote": "",
+    "note": "洋楼有电梯，向西南望园景",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3974225",
+    "lat": 22.312584,
+    "lng": 114.194393,
+    "wgs": [
+      22.31537,
+      114.18948
+    ],
+    "ride": 17,
+    "feed": "步行约2分钟到土瓜湾站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 6300
+      }
+    ],
+    "siteName": "益丰大厦"
+  },
+  {
+    "id": "e4",
+    "name": "土瓜湾 炮仗街8号",
+    "addr": "炮仗街8号",
+    "price": 6300,
+    "area": 150,
+    "room": "一房",
+    "floor": "2/F",
+    "year": 0,
+    "ynote": "",
+    "note": "唐楼 2 楼（不用爬高层），30 秒到土瓜湾站",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4033911",
+    "lat": 22.315096,
+    "lng": 114.193127,
+    "wgs": [
+      22.31788,
+      114.18821
+    ],
+    "ride": 17,
+    "feed": "步行约4分钟到土瓜湾站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 6300
+      }
+    ],
+    "siteName": "炮仗街2/F"
+  },
+  {
+    "id": "e5",
+    "name": "土瓜湾 崇廉楼",
+    "addr": "崇洁街91号",
+    "price": 6800,
+    "area": 160,
+    "room": "一房",
+    "floor": "中层",
+    "year": 1973,
+    "ynote": "",
+    "note": "洋楼家电齐全，一房一厅，即睇",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4007490",
+    "lat": 22.308556,
+    "lng": 114.193964,
+    "wgs": [
+      22.31134,
+      114.18905
+    ],
+    "ride": 17,
+    "feed": "步行约8分钟到土瓜湾站",
+    "feedMin": 8,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 6800
+      }
+    ],
+    "siteName": "崇廉楼"
+  },
+  {
+    "id": "e6",
+    "name": "土瓜湾 新裕大厦",
+    "addr": "九龙城道5-9号",
+    "price": 8200,
+    "area": 286,
+    "room": "两房",
+    "floor": "3/F A室",
+    "year": 1964,
+    "ynote": "",
+    "note": "唐楼 3 楼，286 呎两房，独立水电可轉名，2 分钟到站",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4028489",
+    "lat": 22.313897,
+    "lng": 114.192857,
+    "wgs": [
+      22.31668,
+      114.18794
+    ],
+    "ride": 17,
+    "feed": "步行约2分钟到土瓜湾站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8200
+      }
+    ],
+    "siteName": "新裕大厦"
+  },
+  {
+    "id": "e7",
+    "name": "土瓜湾 偉德楼",
+    "addr": "马头涌道129-131号",
+    "price": 8500,
+    "area": 197,
+    "room": "一房",
+    "floor": "中层",
+    "year": 1988,
+    "ynote": "",
+    "note": "独立单位企理一房，鄰近宋皇台站，有匙即睇",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3938815",
+    "lat": 22.322453,
+    "lng": 114.193765,
+    "wgs": [
+      22.32524,
+      114.18885
+    ],
+    "ride": 20,
+    "feed": "步行约2分钟到宋皇台站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8500
+      }
+    ],
+    "siteName": "伟德楼"
+  },
+  {
+    "id": "e8",
+    "name": "土瓜湾 宏丰大厦",
+    "addr": "浙江街",
+    "price": 9000,
+    "area": 200,
+    "room": "开放式",
+    "floor": "高层",
+    "year": 0,
+    "ynote": "",
+    "note": "土瓜湾站电梯洋楼，业主盤免佣",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3199677",
+    "lat": 22.312365,
+    "lng": 114.194224,
+    "wgs": [
+      22.31515,
+      114.18931
+    ],
+    "ride": 17,
+    "feed": "步行约2分钟到土瓜湾站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9000
+      }
+    ],
+    "siteName": "宏丰大厦"
+  },
+  {
+    "id": "e9",
+    "name": "土瓜湾 安康大厦",
+    "addr": "美景街55号",
+    "price": 11500,
+    "area": 248,
+    "room": "两房",
+    "floor": "高层",
+    "year": 0,
+    "ynote": "",
+    "note": "248 呎两房豪装，安和园一帶，34 校网",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4034355",
+    "lat": 22.314251,
+    "lng": 114.195879,
+    "wgs": [
+      22.31704,
+      114.19097
+    ],
+    "ride": 17,
+    "feed": "步行约5分钟到土瓜湾站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10000
+      },
+      {
+        "date": "2026-10-01",
+        "price": 11500
+      }
+    ],
+    "siteName": "安康大厦"
+  },
+  {
+    "id": "e10",
+    "name": "土瓜湾 安和园",
+    "addr": "美光街66号",
+    "price": 10500,
+    "area": 262,
+    "room": "两房",
+    "floor": "高层",
+    "year": 1974,
+    "ynote": "",
+    "note": "262 呎 2 房 1 厅雅装，34 校网",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4003538",
+    "lat": 22.313711,
+    "lng": 114.196139,
+    "wgs": [
+      22.3165,
+      114.19123
+    ],
+    "ride": 17,
+    "feed": "步行约5分钟到土瓜湾站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10500
+      }
+    ],
+    "siteName": "安和园"
+  },
+  {
+    "id": "e11",
+    "name": "土瓜湾 德信大厦",
+    "addr": "马头围道442-448号",
+    "price": 10500,
+    "area": 226,
+    "room": "一房",
+    "floor": "中层",
+    "year": 1983,
+    "ynote": "",
+    "note": "马头围道 442-448 号，一房",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4023561",
+    "lat": 22.316997,
+    "lng": 114.192239,
+    "wgs": [
+      22.31978,
+      114.18732
+    ],
+    "ride": 17,
+    "feed": "步行约8分钟到土瓜湾站",
+    "feedMin": 8,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10500
+      }
+    ],
+    "siteName": "德信大厦"
+  },
+  {
+    "id": "e12",
+    "name": "土瓜湾 定安大厦 F座",
+    "addr": "土瓜湾道80号",
+    "price": 11000,
+    "area": 311,
+    "room": "两房",
+    "floor": "中层 (3-12/12楼) F8室",
+    "year": 1973,
+    "ynote": "",
+    "note": "311 呎两房，F 座 12 层有电梯",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4033249",
+    "lat": 22.314443,
+    "lng": 114.195101,
+    "wgs": [
+      22.31723,
+      114.19019
+    ],
+    "ride": 17,
+    "feed": "步行约4分钟到土瓜湾站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11000
+      }
+    ],
+    "siteName": "定安大厦"
+  },
+  {
+    "id": "e13",
+    "name": "土瓜湾 德宝大厦",
+    "addr": "炮仗街62号",
+    "price": 11000,
+    "area": 285,
+    "room": "两房",
+    "floor": "高层 (3-12/12楼) A室",
+    "year": 1984,
+    "ynote": "",
+    "note": "285 呎两房一厅，12 层有电梯",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4034227",
+    "lat": 22.316285,
+    "lng": 114.193775,
+    "wgs": [
+      22.31907,
+      114.18886
+    ],
+    "ride": 17,
+    "feed": "步行约6分钟到土瓜湾站",
+    "feedMin": 6,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11000
+      }
+    ],
+    "siteName": "德宝大厦"
+  },
+  {
+    "id": "e14",
+    "name": "土瓜湾 康宁花园",
+    "addr": "长宁街35号",
+    "price": 11300,
+    "area": 244,
+    "room": "一房",
+    "floor": "高层 (13-22/22楼)",
+    "year": 1998,
+    "ynote": "",
+    "note": "全区楼齡最年輕之一（28 年），22 层高层",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3940424",
+    "lat": 22.314753,
+    "lng": 114.194603,
+    "wgs": [
+      22.31754,
+      114.18969
+    ],
+    "ride": 17,
+    "feed": "步行约4分钟到土瓜湾站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11300
+      }
+    ],
+    "siteName": "康宁花园"
+  },
+  {
+    "id": "e15",
+    "name": "土瓜湾 同顺兴大厦",
+    "addr": "浙江街22号",
+    "price": 11500,
+    "area": 277,
+    "room": "两房",
+    "floor": "中层 (6-15/15楼) 1室",
+    "year": 1973,
+    "ynote": "",
+    "note": "有会所、近商场，優質校网",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3884511",
+    "lat": 22.312344,
+    "lng": 114.194812,
+    "wgs": [
+      22.31513,
+      114.1899
+    ],
+    "ride": 17,
+    "feed": "步行约3分钟到土瓜湾站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11500
+      }
+    ],
+    "siteName": "同顺兴大厦"
+  },
+  {
+    "id": "e16",
+    "name": "土瓜湾 荣林大厦",
+    "addr": "新柳街1D号",
+    "price": 11600,
+    "area": 270,
+    "room": "开放式",
+    "floor": "中层 (1-10/23楼)",
+    "year": 1981,
+    "ynote": "",
+    "note": "23 层高楼，270 呎大开放式",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4000523",
+    "lat": 22.310141,
+    "lng": 114.191131,
+    "wgs": [
+      22.31292,
+      114.18621
+    ],
+    "ride": 17,
+    "feed": "步行约7分钟到土瓜湾站",
+    "feedMin": 7,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11600
+      }
+    ],
+    "siteName": "荣林大厦"
+  },
+  {
+    "id": "e17",
+    "name": "土瓜湾 宝德大厦 2座",
+    "addr": "浙江街27号",
+    "price": 11800,
+    "area": 323,
+    "room": "两房",
+    "floor": "高层",
+    "year": 1972,
+    "ynote": "",
+    "note": "2 座独立单位，对面地铁站，323 呎两房",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4035917",
+    "lat": 22.311895,
+    "lng": 114.194283,
+    "wgs": [
+      22.31468,
+      114.18937
+    ],
+    "ride": 17,
+    "feed": "步行约3分钟到土瓜湾站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11800
+      }
+    ],
+    "siteName": "宝德大厦"
+  },
+  {
+    "id": "e18",
+    "name": "土瓜湾 侨发大厦",
+    "addr": "落山道96号",
+    "price": 11800,
+    "area": 271,
+    "room": "两房",
+    "floor": "高层 (5-14/14楼)",
+    "year": 1965,
+    "ynote": "",
+    "note": "271 呎两房，望市景",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4002107",
+    "lat": 22.312843,
+    "lng": 114.195171,
+    "wgs": [
+      22.31563,
+      114.19026
+    ],
+    "ride": 17,
+    "feed": "步行约3分钟到土瓜湾站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11800
+      }
+    ],
+    "siteName": "侨发大厦"
+  },
+  {
+    "id": "e19",
+    "name": "土瓜湾 马头围道170-172号",
+    "addr": "马头围道170-172",
+    "price": 5600,
+    "area": 180,
+    "room": "一房",
+    "floor": "低层",
+    "year": 0,
+    "ynote": "",
+    "note": "业主盤免佣，唐楼低层独立单位，企理一房一厅",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4015150",
+    "lat": 22.317359,
+    "lng": 114.191122,
+    "wgs": [
+      22.32014,
+      114.1862
+    ],
+    "ride": 17,
+    "feed": "步行约9分钟到土瓜湾站",
+    "feedMin": 9,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 5600
+      }
+    ],
+    "siteName": "马头围道170-172号"
+  },
+  {
+    "id": "e20",
+    "name": "九龙城 日康阁",
+    "addr": "打鼓岭道85号",
+    "price": 8300,
+    "area": 196,
+    "room": "一房",
+    "floor": "中层",
+    "year": 1999,
+    "ynote": "",
+    "note": "楼齡 27 年（区內少見較新），打鼓嶺道 85 号",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3926087",
+    "lat": 22.327498,
+    "lng": 114.196309,
+    "wgs": [
+      22.33029,
+      114.1914
+    ],
+    "ride": 20,
+    "feed": "步行约12分钟到宋皇台站",
+    "feedMin": 12,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8300
+      }
+    ],
+    "siteName": "日康阁"
+  },
+  {
+    "id": "e21",
+    "name": "九龙城 顺景楼",
+    "addr": "打鼓岭道33-35号",
+    "price": 8900,
+    "area": 211,
+    "room": "两房",
+    "floor": "高层 D室",
+    "year": 1981,
+    "ynote": "",
+    "note": "211 呎两房連天台，41 校网",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4034689",
+    "lat": 22.326428,
+    "lng": 114.196249,
+    "wgs": [
+      22.32922,
+      114.19134
+    ],
+    "ride": 20,
+    "feed": "步行约10分钟到宋皇台站",
+    "feedMin": 10,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8900
+      }
+    ],
+    "siteName": "顺景楼"
+  },
+  {
+    "id": "e22",
+    "name": "九龙城 新泰楼",
+    "addr": "联合道10-16号",
+    "price": 9000,
+    "area": 361,
+    "room": "一房",
+    "floor": "高层",
+    "year": 0,
+    "ynote": "",
+    "note": "361 呎 1 房 + 天台，41 校网，近宋皇台站",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4029104",
+    "lat": 22.325176,
+    "lng": 114.19205,
+    "wgs": [
+      22.32796,
+      114.18713
+    ],
+    "ride": 20,
+    "feed": "步行约7分钟到宋皇台站",
+    "feedMin": 7,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9000
+      }
+    ],
+    "siteName": "新泰楼"
+  },
+  {
+    "id": "e23",
+    "name": "九龙城 AVA55",
+    "addr": "启德道55号",
+    "price": 9500,
+    "area": 166,
+    "room": "开放式",
+    "floor": "低层 (2-12/27楼) B室",
+    "year": 2019,
+    "ynote": "",
+    "note": "楼齡 7 年半新楼，玻璃幕牆、有 Gym，宋皇台站",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3922719",
+    "lat": 22.326917,
+    "lng": 114.196908,
+    "wgs": [
+      22.32971,
+      114.192
+    ],
+    "ride": 20,
+    "feed": "步行约11分钟到宋皇台站",
+    "feedMin": 11,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9500
+      }
+    ],
+    "siteName": "AVA55"
+  },
+  {
+    "id": "e24",
+    "name": "九龙城 金富楼",
+    "addr": "狮子石道66-68号",
+    "price": 10500,
+    "area": 245,
+    "room": "一房",
+    "floor": "全层",
+    "year": 1986,
+    "ynote": "",
+    "note": "全层单位、靓装两房，乾濕分離、梗厨",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4032073",
+    "lat": 22.327053,
+    "lng": 114.193277,
+    "wgs": [
+      22.32984,
+      114.18836
+    ],
+    "ride": 20,
+    "feed": "步行约10分钟到宋皇台站",
+    "feedMin": 10,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10500
+      }
+    ],
+    "siteName": "金富楼"
+  },
+  {
+    "id": "e25",
+    "name": "九龙城 宝城大楼",
+    "addr": "石鼓垄道25号",
+    "price": 10800,
+    "area": 245,
+    "room": "两房",
+    "floor": "中层 (4-13/13楼) 3室",
+    "year": 1967,
+    "ynote": "",
+    "note": "245 呎两房，13 层有电梯",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3910979",
+    "lat": 22.327555,
+    "lng": 114.197905,
+    "wgs": [
+      22.33035,
+      114.193
+    ],
+    "ride": 20,
+    "feed": "步行约13分钟到宋皇台站",
+    "feedMin": 13,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10800
+      }
+    ],
+    "siteName": "宝城大楼"
+  },
+  {
+    "id": "e26",
+    "name": "九龙城 MW Easton",
+    "addr": "狮子石道48号",
+    "price": 10800,
+    "area": 134,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 2022,
+    "ynote": "",
+    "note": "楼齡 4 年，全新翻新、玻璃幕牆、有 Gym",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4018194",
+    "lat": 22.326523,
+    "lng": 114.193277,
+    "wgs": [
+      22.32931,
+      114.18836
+    ],
+    "ride": 20,
+    "feed": "步行约9分钟到宋皇台站",
+    "feedMin": 9,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10800
+      }
+    ],
+    "siteName": "MW Easton"
+  },
+  {
+    "id": "e27",
+    "name": "九龙城 嘉富楼",
+    "addr": "狮子石道77-79号",
+    "price": 11000,
+    "area": 268,
+    "room": "两房",
+    "floor": "高层 D室",
+    "year": 1994,
+    "ynote": "",
+    "note": "268 呎两房，楼齡 32 年",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4012897",
+    "lat": 22.327404,
+    "lng": 114.192958,
+    "wgs": [
+      22.33019,
+      114.18804
+    ],
+    "ride": 20,
+    "feed": "步行约11分钟到宋皇台站",
+    "feedMin": 11,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11000
+      }
+    ],
+    "siteName": "嘉富楼"
+  },
+  {
+    "id": "e28",
+    "name": "九龙城 龙珠楼",
+    "addr": "太子道西368-374号",
+    "price": 11500,
+    "area": 320,
+    "room": "两房",
+    "floor": "低层",
+    "year": 1984,
+    "ynote": "",
+    "note": "320 呎两房，太子道西 368-374 号",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-2734251",
+    "lat": 22.324874,
+    "lng": 114.192838,
+    "wgs": [
+      22.32766,
+      114.18792
+    ],
+    "ride": 20,
+    "feed": "步行约6分钟到宋皇台站",
+    "feedMin": 6,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11500
+      }
+    ],
+    "siteName": "龙珠楼"
+  },
+  {
+    "id": "e29",
+    "name": "九龙城 泰丰楼",
+    "addr": "狮子石道72-76 号",
+    "price": 9900,
+    "area": 281,
+    "room": "两房",
+    "floor": "高层",
+    "year": 1983,
+    "ynote": "",
+    "note": "281 呎两房連天台，獅子石道 72-76 号",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4029559",
+    "lat": 22.327183,
+    "lng": 114.193297,
+    "wgs": [
+      22.32997,
+      114.18838
+    ],
+    "ride": 20,
+    "feed": "步行约10分钟到宋皇台站",
+    "feedMin": 10,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9900
+      }
+    ],
+    "siteName": "泰丰楼"
+  },
+  {
+    "id": "e30",
+    "name": "九龙城 獅子石道15号",
+    "addr": "狮子石道77-79号",
+    "price": 9900,
+    "area": 296,
+    "room": "两房",
+    "floor": "低层",
+    "year": 1974,
+    "ynote": "",
+    "note": "296 呎两房，唐楼低层",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-2708920",
+    "lat": 22.325074,
+    "lng": 114.192878,
+    "wgs": [
+      22.32786,
+      114.18796
+    ],
+    "ride": 20,
+    "feed": "步行约7分钟到宋皇台站",
+    "feedMin": 7,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9900
+      }
+    ],
+    "siteName": "狮子石道15号"
+  },
+  {
+    "id": "e31",
+    "name": "九龙城 裕联大厦",
+    "addr": "联合道2-4号",
+    "price": 12000,
+    "area": 434,
+    "room": "两房",
+    "floor": "低层",
+    "year": 0,
+    "ynote": "",
+    "note": "434 呎大两房，唐楼共用天台，全新翻新",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4004882",
+    "lat": 22.324956,
+    "lng": 114.19205,
+    "wgs": [
+      22.32774,
+      114.18713
+    ],
+    "ride": 20,
+    "feed": "步行约7分钟到宋皇台站",
+    "feedMin": 7,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 12000
+      }
+    ],
+    "siteName": "裕联大厦"
+  },
+  {
+    "id": "e32",
+    "name": "黄大仙 建煌楼",
+    "addr": "银凤街10-12A号",
+    "price": 5500,
+    "area": 160,
+    "room": "开放式",
+    "floor": "全层",
+    "year": 1970,
+    "ynote": "",
+    "note": "全层单位、独立厨厕，近马会、近钻石山站；该站车程按港铁线网推算（非官方公布值）",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4017827",
+    "lat": 22.341394,
+    "lng": 114.202973,
+    "wgs": [
+      22.3442,
+      114.19808
+    ],
+    "ride": 20,
+    "feed": "步行约5分钟到黄大仙站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 5500
+      }
+    ],
+    "siteName": "建煌楼"
+  },
+  {
+    "id": "e33",
+    "name": "新蒲岗 如意楼",
+    "addr": "崇龄街80-94A号",
+    "price": 6300,
+    "area": 150,
+    "room": "一房",
+    "floor": "中层",
+    "year": 1964,
+    "ynote": "",
+    "note": "崇齡街 80-94A 号，一房一厅",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3754878",
+    "lat": 22.331509,
+    "lng": 114.200659,
+    "wgs": [
+      22.33431,
+      114.19576
+    ],
+    "ride": 22,
+    "feed": "步行约9分钟到启德站",
+    "feedMin": 9,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 6300
+      }
+    ],
+    "siteName": "如意楼"
+  },
+  {
+    "id": "e34",
+    "name": "新蒲岗 裕富大厦",
+    "addr": "康强街1-17号",
+    "price": 6600,
+    "area": 135,
+    "room": "一房",
+    "floor": "低层",
+    "year": 1963,
+    "ynote": "",
+    "note": "低层一房，開揚靓装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4025516",
+    "lat": 22.331946,
+    "lng": 114.202404,
+    "wgs": [
+      22.33475,
+      114.19751
+    ],
+    "ride": 22,
+    "feed": "步行约7分钟到启德站",
+    "feedMin": 7,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 6600
+      }
+    ],
+    "siteName": "裕富大厦"
+  },
+  {
+    "id": "e35",
+    "name": "黄大仙 安达大厦",
+    "addr": "银凤街17-27号",
+    "price": 7500,
+    "area": 180,
+    "room": "开放式",
+    "floor": "5/F",
+    "year": 1971,
+    "ynote": "",
+    "note": "5 楼，全屋家私电器，連天台可用；该站车程按港铁线网推算（非官方公布值）",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4027930",
+    "lat": 22.341724,
+    "lng": 114.202784,
+    "wgs": [
+      22.34453,
+      114.19789
+    ],
+    "ride": 20,
+    "feed": "步行约5分钟到黄大仙站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 7500
+      }
+    ],
+    "siteName": "安达大厦"
+  },
+  {
+    "id": "e36",
+    "name": "新蒲岗 永乐大厦",
+    "addr": "爵禄街18-30A号",
+    "price": 8900,
+    "area": 395,
+    "room": "一房",
+    "floor": "2/F",
+    "year": 1965,
+    "ynote": "",
+    "note": "395 呎大单位，望楼景、開揚景；该站车程按港铁线网推算（非官方公布值）",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3764972",
+    "lat": 22.333429,
+    "lng": 114.200579,
+    "wgs": [
+      22.33623,
+      114.19568
+    ],
+    "ride": 20,
+    "feed": "步行约10分钟到黄大仙站",
+    "feedMin": 10,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8900
+      }
+    ],
+    "siteName": "永乐大厦"
+  },
+  {
+    "id": "e37",
+    "name": "新蒲岗 安强大楼",
+    "addr": "康强街51-65号",
+    "price": 9500,
+    "area": 352,
+    "room": "两房",
+    "floor": "中层",
+    "year": 1963,
+    "ynote": "",
+    "note": "352 呎，厅大房大、乾濕分離",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4012245",
+    "lat": 22.331498,
+    "lng": 114.201596,
+    "wgs": [
+      22.3343,
+      114.1967
+    ],
+    "ride": 22,
+    "feed": "步行约8分钟到启德站",
+    "feedMin": 8,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9500
+      }
+    ],
+    "siteName": "安强大楼"
+  },
+  {
+    "id": "e38",
+    "name": "黄大仙 万宝大厦",
+    "addr": "毓华里28号",
+    "price": 9800,
+    "area": 262,
+    "room": "两房",
+    "floor": "低层 (1-10/21楼)",
+    "year": 1975,
+    "ynote": "",
+    "note": "262 呎两房，21 层洋楼有电梯；该站车程按港铁线网推算（非官方公布值）",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4022288",
+    "lat": 22.344096,
+    "lng": 114.207673,
+    "wgs": [
+      22.34691,
+      114.20279
+    ],
+    "ride": 20,
+    "feed": "步行约14分钟到黄大仙站",
+    "feedMin": 14,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9800
+      }
+    ],
+    "siteName": "万宝大厦"
+  },
+  {
+    "id": "e39",
+    "name": "新蒲岗 安福大楼",
+    "addr": "崇龄街95-97号",
+    "price": 10800,
+    "area": 350,
+    "room": "两房",
+    "floor": "中层",
+    "year": 1963,
+    "ynote": "",
+    "note": "350 呎两房兩厕，望园景，新装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3966597",
+    "lat": 22.331188,
+    "lng": 114.201407,
+    "wgs": [
+      22.33399,
+      114.19651
+    ],
+    "ride": 22,
+    "feed": "步行约7分钟到启德站",
+    "feedMin": 7,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10800
+      }
+    ],
+    "siteName": "安福大楼"
+  },
+  {
+    "id": "e40",
+    "name": "黄大仙 凤凰村大厦",
+    "addr": "银凤街7号",
+    "price": 11800,
+    "area": 384,
+    "room": "两房",
+    "floor": "中层 (5-14/20楼) E室",
+    "year": 1973,
+    "ynote": "",
+    "note": "384 呎两房，20 层有电梯；该站车程按港铁线网推算（非官方公布值）",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4017788",
+    "lat": 22.341374,
+    "lng": 114.202734,
+    "wgs": [
+      22.34418,
+      114.19784
+    ],
+    "ride": 20,
+    "feed": "步行约5分钟到黄大仙站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11800
+      }
+    ],
+    "siteName": "凤凰村大厦"
+  },
+  {
+    "id": "e41",
+    "name": "钻石山 永丰楼",
+    "addr": "慈华里16-18号",
+    "price": 8000,
+    "area": 267,
+    "room": "一房",
+    "floor": "中层",
+    "year": 1975,
+    "ynote": "",
+    "note": "慈云山慈華里，267 呎一房；離钻石山站較遠，需步行／小巴接駁；该站车程按港铁线网推算（非官方公布值）",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3995065",
+    "lat": 22.3462,
+    "lng": 114.204849,
+    "wgs": [
+      22.34901,
+      114.19996
+    ],
+    "ride": 20,
+    "feed": "步行约14分钟到黄大仙站",
+    "feedMin": 14,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8000
+      }
+    ],
+    "siteName": "永丰楼"
+  },
+  {
+    "id": "f1",
+    "name": "湾仔 轩尼诗道231号",
+    "addr": "轩尼诗道231号",
+    "price": 6200,
+    "area": 150,
+    "room": "开放式",
+    "floor": "低层",
+    "year": 1987,
+    "ynote": "",
+    "note": "业主盘免佣，置顶盘，洋楼有电梯，有装修，连家俬",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4000397",
+    "lat": 22.275289,
+    "lng": 114.180737,
+    "wgs": [
+      22.27804,
+      114.17579
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 4 分钟",
+    "feedMin": 4,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 6200
+      }
+    ],
+    "siteName": "怡明阁"
+  },
+  {
+    "id": "f2",
+    "name": "湾仔 轩尼诗道179-181号",
+    "addr": "轩尼诗道179-181号",
+    "price": 11000,
+    "area": 145,
+    "room": "开放式",
+    "floor": "高层",
+    "year": 1985,
+    "ynote": "",
+    "note": "代理盘，置顶盘，洋楼有电梯，有装修，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4029825",
+    "lat": 22.275192,
+    "lng": 114.179062,
+    "wgs": [
+      22.27794,
+      114.17411
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 5 分钟",
+    "feedMin": 5,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11000
+      }
+    ],
+    "siteName": "康富大厦"
+  },
+  {
+    "id": "f3",
+    "name": "湾仔 湾仔道187号",
+    "addr": "湾仔道187号",
+    "price": 6500,
+    "area": 170,
+    "room": "开放式",
+    "floor": "低层",
+    "year": 1959,
+    "ynote": "",
+    "note": "业主盘免佣，置顶盘，唐楼（需现场确认有无电梯），有装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4027496",
+    "lat": 22.274815,
+    "lng": 114.183031,
+    "wgs": [
+      22.27757,
+      114.17809
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 7 分钟",
+    "feedMin": 7,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 6500
+      }
+    ],
+    "siteName": "景星大厦"
+  },
+  {
+    "id": "f4",
+    "name": "湾仔 轩尼诗道344-354号",
+    "addr": "轩尼诗道344-354号",
+    "price": 8200,
+    "area": 180,
+    "room": "一房",
+    "floor": "低层",
+    "year": 1966,
+    "ynote": "",
+    "note": "业主盘免佣，置顶盘，洋楼有电梯，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4005953",
+    "lat": 22.275602,
+    "lng": 114.184148,
+    "wgs": [
+      22.27836,
+      114.17921
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 7 分钟",
+    "feedMin": 7,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8200
+      }
+    ],
+    "siteName": "昌业大厦"
+  },
+  {
+    "id": "f5",
+    "name": "湾仔 庄士敦道148-150号",
+    "addr": "庄士敦道148-150号",
+    "price": 11800,
+    "area": 250,
+    "room": "一房",
+    "floor": "中层",
+    "year": 1967,
+    "ynote": "",
+    "note": "代理盘，独家盘，置顶盘，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4027646",
+    "lat": 22.273812,
+    "lng": 114.179131,
+    "wgs": [
+      22.27656,
+      114.17418
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 7 分钟",
+    "feedMin": 7,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11800
+      }
+    ],
+    "siteName": "中南楼"
+  },
+  {
+    "id": "f6",
+    "name": "湾仔 石水渠街23-25号",
+    "addr": "石水渠街23-25号",
+    "price": 11000,
+    "area": 262,
+    "room": "两房",
+    "floor": "高层",
+    "year": 1978,
+    "ynote": "",
+    "note": "代理盘，独家盘，唐楼（需现场确认有无电梯）",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4030668",
+    "lat": 22.273114,
+    "lng": 114.178513,
+    "wgs": [
+      22.27586,
+      114.17356
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 8 分钟",
+    "feedMin": 8,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11000
+      }
+    ],
+    "siteName": "永基大厦"
+  },
+  {
+    "id": "f7",
+    "name": "湾仔 轩尼诗道385-391号",
+    "addr": "轩尼诗道385-391号",
+    "price": 12000,
+    "area": 250,
+    "room": "两房",
+    "floor": "中层",
+    "year": 1971,
+    "ynote": "",
+    "note": "业主盘免佣，置顶盘，洋楼有电梯，有装修，连家俬",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4026027",
+    "lat": 22.27635,
+    "lng": 114.185026,
+    "wgs": [
+      22.27911,
+      114.18009
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 8 分钟",
+    "feedMin": 8,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 12000
+      }
+    ],
+    "siteName": "轩宁大厦"
+  },
+  {
+    "id": "f8",
+    "name": "湾仔 骆克道414-430号",
+    "addr": "骆克道414-430号",
+    "price": 9400,
+    "area": 160,
+    "room": "开放式",
+    "floor": "低层",
+    "year": 1972,
+    "ynote": "",
+    "note": "代理盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4027880",
+    "lat": 22.276879,
+    "lng": 114.185694,
+    "wgs": [
+      22.27964,
+      114.18076
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 9 分钟",
+    "feedMin": 9,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9400
+      }
+    ],
+    "siteName": "伟德大厦"
+  },
+  {
+    "id": "f9",
+    "name": "湾仔 轩尼诗道59-65号",
+    "addr": "轩尼诗道59-65号",
+    "price": 11500,
+    "area": 220,
+    "room": "开放式",
+    "floor": "待核实",
+    "year": 1966,
+    "ynote": "",
+    "note": "代理盘，独家盘，置顶盘，洋楼有电梯，有装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3996063",
+    "lat": 22.275028,
+    "lng": 114.17591,
+    "wgs": [
+      22.27777,
+      114.17095
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 9 分钟",
+    "feedMin": 9,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11500
+      }
+    ],
+    "siteName": "四宝大厦"
+  },
+  {
+    "id": "f10",
+    "name": "铜锣湾 骆克道451-457号",
+    "addr": "骆克道451-457号",
+    "price": 7500,
+    "area": 150,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1979,
+    "ynote": "",
+    "note": "业主盘免佣，洋楼有电梯",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4032443",
+    "lat": 22.277557,
+    "lng": 114.186462,
+    "wgs": [
+      22.28032,
+      114.18153
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 10 分钟",
+    "feedMin": 10,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 7500
+      }
+    ],
+    "siteName": "骆克大楼"
+  },
+  {
+    "id": "f11",
+    "name": "铜锣湾 轩尼诗道439号",
+    "addr": "轩尼诗道439号",
+    "price": 7600,
+    "area": 180,
+    "room": "开放式",
+    "floor": "高层",
+    "year": 0,
+    "ynote": "",
+    "note": "业主盘免佣，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3996672",
+    "lat": 22.276928,
+    "lng": 114.186522,
+    "wgs": [
+      22.27969,
+      114.18159
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 10 分钟",
+    "feedMin": 10,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 7600
+      }
+    ],
+    "siteName": "轩尼诗道439号"
+  },
+  {
+    "id": "f12",
+    "name": "铜锣湾 骆克道474-476号",
+    "addr": "骆克道474-476号",
+    "price": 9500,
+    "area": 170,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1968,
+    "ynote": "",
+    "note": "代理盘，有装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4010726",
+    "lat": 22.277366,
+    "lng": 114.18704,
+    "wgs": [
+      22.28013,
+      114.18211
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 11 分钟",
+    "feedMin": 11,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9500
+      }
+    ],
+    "siteName": "合宜大厦"
+  },
+  {
+    "id": "f13",
+    "name": "铜锣湾 登龙街36-48号",
+    "addr": "登龙街36-48号",
+    "price": 8000,
+    "area": 180,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1972,
+    "ynote": "",
+    "note": "代理盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4016364",
+    "lat": 22.276536,
+    "lng": 114.18724,
+    "wgs": [
+      22.2793,
+      114.18231
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 12 分钟",
+    "feedMin": 12,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8000
+      }
+    ],
+    "siteName": "登辉大厦"
+  },
+  {
+    "id": "f14",
+    "name": "铜锣湾 罗素街59-61号",
+    "addr": "罗素街59-61号",
+    "price": 10500,
+    "area": 180,
+    "room": "开放式",
+    "floor": "低层",
+    "year": 1964,
+    "ynote": "",
+    "note": "代理盘，洋楼有电梯，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4019064",
+    "lat": 22.276305,
+    "lng": 114.188227,
+    "wgs": [
+      22.27907,
+      114.1833
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 13 分钟",
+    "feedMin": 13,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10500
+      }
+    ],
+    "siteName": "丽园大厦"
+  },
+  {
+    "id": "f15",
+    "name": "铜锣湾 谢斐道501-515号",
+    "addr": "谢斐道501-515号",
+    "price": 11000,
+    "area": 160,
+    "room": "一房",
+    "floor": "低层",
+    "year": 1966,
+    "ynote": "",
+    "note": "代理盘，有装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3813094",
+    "lat": 22.278534,
+    "lng": 114.188088,
+    "wgs": [
+      22.2813,
+      114.18316
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 13 分钟",
+    "feedMin": 13,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11000
+      }
+    ],
+    "siteName": "美汉大厦"
+  },
+  {
+    "id": "f16",
+    "name": "铜锣湾 告士打道276号",
+    "addr": "告士打道276号",
+    "price": 8000,
+    "area": 150,
+    "room": "开放式",
+    "floor": "低层",
+    "year": 1963,
+    "ynote": "",
+    "note": "业主盘免佣，置顶盘，洋楼有电梯，有装修，连家俬",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4009083",
+    "lat": 22.279093,
+    "lng": 114.188526,
+    "wgs": [
+      22.28186,
+      114.1836
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 14 分钟",
+    "feedMin": 14,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8000
+      }
+    ],
+    "siteName": "海殿大厦"
+  },
+  {
+    "id": "f17",
+    "name": "铜锣湾 景隆街12号",
+    "addr": "告士打道278号",
+    "price": 9800,
+    "area": 150,
+    "room": "开放式",
+    "floor": "待核实",
+    "year": 0,
+    "ynote": "",
+    "note": "代理盘，洋楼有电梯，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3997992",
+    "lat": 22.279093,
+    "lng": 114.188526,
+    "wgs": [
+      22.28186,
+      114.1836
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 14 分钟",
+    "feedMin": 14,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9800
+      }
+    ],
+    "siteName": "景隆街12号"
+  },
+  {
+    "id": "f18",
+    "name": "铜锣湾 利园山道54-70号",
+    "addr": "利园山道54-70号",
+    "price": 7000,
+    "area": 130,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1959,
+    "ynote": "",
+    "note": "代理盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4001823",
+    "lat": 22.275523,
+    "lng": 114.189015,
+    "wgs": [
+      22.27829,
+      114.18409
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 15 分钟",
+    "feedMin": 15,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 7000
+      }
+    ],
+    "siteName": "凤鸣大厦"
+  },
+  {
+    "id": "f19",
+    "name": "铜锣湾 波斯富街114号",
+    "addr": "波斯富街114号",
+    "price": 9000,
+    "area": 210,
+    "room": "开放式",
+    "floor": "低层",
+    "year": 1967,
+    "ynote": "",
+    "note": "代理盘，置顶盘，洋楼有电梯，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4035853",
+    "lat": 22.275594,
+    "lng": 114.188706,
+    "wgs": [
+      22.27836,
+      114.18378
+    ],
+    "ride": 0,
+    "feed": "步行直达公司，约 15 分钟",
+    "feedMin": 15,
+    "ok": true,
+    "walk": true,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9000
+      }
+    ],
+    "siteName": "宝荣大楼"
+  },
+  {
+    "id": "f20",
+    "name": "铜锣湾 百德新街22-36号",
+    "addr": "百德新街 22-36 号",
+    "price": 9500,
+    "area": 230,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1970,
+    "ynote": "",
+    "note": "代理盘，洋楼有电梯",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4018914",
+    "lat": 22.27811,
+    "lng": 114.190541,
+    "wgs": [
+      22.28088,
+      114.18562
+    ],
+    "ride": 10,
+    "feed": "步行约2分钟到铜锣湾站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9500
+      }
+    ],
+    "siteName": "珠城大厦"
+  },
+  {
+    "id": "f21",
+    "name": "铜锣湾 百德新街51号",
+    "addr": "百德新街51号",
+    "price": 11600,
+    "area": 200,
+    "room": "一房",
+    "floor": "低层",
+    "year": 1958,
+    "ynote": "",
+    "note": "代理盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4011774",
+    "lat": 22.278701,
+    "lng": 114.189953,
+    "wgs": [
+      22.28147,
+      114.18503
+    ],
+    "ride": 10,
+    "feed": "步行约2分钟到铜锣湾站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11600
+      }
+    ],
+    "siteName": "华尔大厦"
+  },
+  {
+    "id": "f22",
+    "name": "铜锣湾 摩顿台13-33号",
+    "addr": "摩顿台 13-33 号",
+    "price": 7800,
+    "area": 150,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1966,
+    "ynote": "",
+    "note": "代理盘，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3830696",
+    "lat": 22.276644,
+    "lng": 114.193882,
+    "wgs": [
+      22.27942,
+      114.18897
+    ],
+    "ride": 10,
+    "feed": "步行约8分钟到铜锣湾站",
+    "feedMin": 8,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 7800
+      }
+    ],
+    "siteName": "湾景楼"
+  },
+  {
+    "id": "f23",
+    "name": "铜锣湾 成和道9号",
+    "addr": "成和道9号",
+    "price": 10000,
+    "area": 250,
+    "room": "一房",
+    "floor": "待核实",
+    "year": 0,
+    "ynote": "",
+    "note": "业主盘免佣，置顶盘，唐楼（需现场确认有无电梯），有装修，连家俬",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4032958",
+    "lat": 22.266974,
+    "lng": 114.190042,
+    "wgs": [
+      22.26974,
+      114.18512
+    ],
+    "ride": 10,
+    "feed": "步行约19分钟到铜锣湾站",
+    "feedMin": 19,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10000
+      }
+    ],
+    "siteName": "成和道"
+  },
+  {
+    "id": "f24",
+    "name": "天后 英皇道37号",
+    "addr": "英皇道37号",
+    "price": 11000,
+    "area": 180,
+    "room": "开放式",
+    "floor": "低层",
+    "year": 1992,
+    "ynote": "",
+    "note": "代理盘，置顶盘，洋楼有电梯，有装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4013287",
+    "lat": 22.281637,
+    "lng": 114.197463,
+    "wgs": [
+      22.28442,
+      114.19256
+    ],
+    "ride": 13,
+    "feed": "步行约4分钟到天后站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11000
+      }
+    ],
+    "siteName": "金山阁"
+  },
+  {
+    "id": "f25",
+    "name": "天后 莲花宫西街16号",
+    "addr": "莲花宫西街16号",
+    "price": 11800,
+    "area": 159,
+    "room": "开放式",
+    "floor": "高层",
+    "year": 1998,
+    "ynote": "",
+    "note": "代理盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4029562",
+    "lat": 22.276788,
+    "lng": 114.197533,
+    "wgs": [
+      22.27957,
+      114.19263
+    ],
+    "ride": 13,
+    "feed": "步行约5分钟到天后站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11800
+      }
+    ],
+    "siteName": "金乐居"
+  },
+  {
+    "id": "f26",
+    "name": "天后 电气道121号",
+    "addr": "电气道121号",
+    "price": 9000,
+    "area": 185,
+    "room": "一房",
+    "floor": "待核实",
+    "year": 0,
+    "ynote": "",
+    "note": "代理盘，唐楼（需现场确认有无电梯），有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4035620",
+    "lat": 22.282888,
+    "lng": 114.196406,
+    "wgs": [
+      22.28567,
+      114.1915
+    ],
+    "ride": 13,
+    "feed": "步行约7分钟到天后站",
+    "feedMin": 7,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9000
+      }
+    ],
+    "siteName": "电气道121号"
+  },
+  {
+    "id": "f27",
+    "name": "天后 铜锣湾道42-44号",
+    "addr": "铜锣湾道42-44号",
+    "price": 10000,
+    "area": 186,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1983,
+    "ynote": "",
+    "note": "代理盘，置顶盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4026678",
+    "lat": 22.275771,
+    "lng": 114.195767,
+    "wgs": [
+      22.27855,
+      114.19086
+    ],
+    "ride": 13,
+    "feed": "步行约7分钟到天后站",
+    "feedMin": 7,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10000
+      }
+    ],
+    "siteName": "金晖阁"
+  },
+  {
+    "id": "f28",
+    "name": "北角 英皇道425-431号",
+    "addr": "英皇道425-431号",
+    "price": 11200,
+    "area": 130,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1968,
+    "ynote": "",
+    "note": "代理盘，独家盘，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4015760",
+    "lat": 22.288622,
+    "lng": 114.205275,
+    "wgs": [
+      22.29142,
+      114.20039
+    ],
+    "ride": 16,
+    "feed": "步行约1分钟到北角站",
+    "feedMin": 1,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11200
+      }
+    ],
+    "siteName": "安宁大厦"
+  },
+  {
+    "id": "f29",
+    "name": "北角 锦屏街24-38号",
+    "addr": "锦屏街24-38号",
+    "price": 8200,
+    "area": 128,
+    "room": "开放式",
+    "floor": "低层",
+    "year": 1970,
+    "ynote": "",
+    "note": "业主盘免佣，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3881492",
+    "lat": 22.287223,
+    "lng": 114.204875,
+    "wgs": [
+      22.29002,
+      114.19999
+    ],
+    "ride": 16,
+    "feed": "步行约2分钟到北角站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8200
+      }
+    ],
+    "siteName": "幸福大楼"
+  },
+  {
+    "id": "f30",
+    "name": "北角 七姊妺道30-36号",
+    "addr": "七姊妺道30-36号",
+    "price": 10800,
+    "area": 161,
+    "room": "开放式",
+    "floor": "高层",
+    "year": 1986,
+    "ynote": "",
+    "note": "代理盘，有装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-2751970",
+    "lat": 22.28792,
+    "lng": 114.206362,
+    "wgs": [
+      22.29072,
+      114.20148
+    ],
+    "ride": 16,
+    "feed": "步行约2分钟到北角站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10800
+      }
+    ],
+    "siteName": "兆年大厦"
+  },
+  {
+    "id": "f31",
+    "name": "北角 马宝道44-46号",
+    "addr": "马宝道44-46号",
+    "price": 11800,
+    "area": 250,
+    "room": "两房",
+    "floor": "待核实",
+    "year": 1959,
+    "ynote": "",
+    "note": "代理盘，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4025287",
+    "lat": 22.28906,
+    "lng": 114.206123,
+    "wgs": [
+      22.29186,
+      114.20124
+    ],
+    "ride": 16,
+    "feed": "步行约2分钟到北角站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11800
+      }
+    ],
+    "siteName": "马宝道44-46号"
+  },
+  {
+    "id": "f32",
+    "name": "北角 锦屏街63-69号",
+    "addr": "锦屏街63-69号",
+    "price": 6800,
+    "area": 130,
+    "room": "开放式",
+    "floor": "待核实",
+    "year": 0,
+    "ynote": "",
+    "note": "代理盘，洋楼有电梯，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4025987",
+    "lat": 22.286582,
+    "lng": 114.205245,
+    "wgs": [
+      22.28938,
+      114.20036
+    ],
+    "ride": 16,
+    "feed": "步行约3分钟到北角站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 6800
+      }
+    ],
+    "siteName": "锦屏楼"
+  },
+  {
+    "id": "f33",
+    "name": "北角 锦屏街48-54号",
+    "addr": "锦屏街48-54号",
+    "price": 10900,
+    "area": 230,
+    "room": "两房",
+    "floor": "中层",
+    "year": 1962,
+    "ynote": "",
+    "note": "代理盘，置顶盘，洋楼有电梯，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4008720",
+    "lat": 22.287033,
+    "lng": 114.204546,
+    "wgs": [
+      22.28983,
+      114.19966
+    ],
+    "ride": 16,
+    "feed": "步行约3分钟到北角站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10900
+      }
+    ],
+    "siteName": "鸿福大楼"
+  },
+  {
+    "id": "f34",
+    "name": "北角 孔雀道24号",
+    "addr": "孔雀道24号",
+    "price": 12000,
+    "area": 200,
+    "room": "一房",
+    "floor": "待核实",
+    "year": 0,
+    "ynote": "",
+    "note": "代理盘，唐楼（需现场确认有无电梯），有装修，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4020048",
+    "lat": 22.286513,
+    "lng": 114.204816,
+    "wgs": [
+      22.28931,
+      114.19993
+    ],
+    "ride": 16,
+    "feed": "步行约4分钟到北角站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 12000
+      }
+    ],
+    "siteName": "孔雀道24号"
+  },
+  {
+    "id": "f35",
+    "name": "北角 春秧街98-100号",
+    "addr": "春秧街98-100号",
+    "price": 7300,
+    "area": 150,
+    "room": "开放式",
+    "floor": "待核实",
+    "year": 1969,
+    "ynote": "",
+    "note": "业主盘免佣，置顶盘，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4024254",
+    "lat": 22.288326,
+    "lng": 114.202651,
+    "wgs": [
+      22.29112,
+      114.19776
+    ],
+    "ride": 16,
+    "feed": "步行约5分钟到北角站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 7300
+      }
+    ],
+    "siteName": "春秧街98-100号"
+  },
+  {
+    "id": "f36",
+    "name": "北角 渣华道57-59号",
+    "addr": "渣华道57-59号",
+    "price": 9900,
+    "area": 183,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1992,
+    "ynote": "",
+    "note": "代理盘，置顶盘，洋楼有电梯",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4027871",
+    "lat": 22.289226,
+    "lng": 114.202761,
+    "wgs": [
+      22.29202,
+      114.19787
+    ],
+    "ride": 16,
+    "feed": "步行约5分钟到北角站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9900
+      }
+    ],
+    "siteName": "添金阁"
+  },
+  {
+    "id": "f37",
+    "name": "北角 英皇道321-333号",
+    "addr": "英皇道321-333号",
+    "price": 9900,
+    "area": 180,
+    "room": "开放式",
+    "floor": "低层",
+    "year": 1958,
+    "ynote": "",
+    "note": "代理盘，独家盘，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3958405",
+    "lat": 22.287828,
+    "lng": 114.201384,
+    "wgs": [
+      22.29062,
+      114.19649
+    ],
+    "ride": 15,
+    "feed": "步行约7分钟到炮台山站",
+    "feedMin": 7,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9900
+      }
+    ],
+    "siteName": "皇冠大厦"
+  },
+  {
+    "id": "f38",
+    "name": "北角 渣华道24号",
+    "addr": "渣华道24号",
+    "price": 11600,
+    "area": 229,
+    "room": "一房",
+    "floor": "低层",
+    "year": 1986,
+    "ynote": "",
+    "note": "代理盘，有装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4025112",
+    "lat": 22.288588,
+    "lng": 114.201194,
+    "wgs": [
+      22.29138,
+      114.1963
+    ],
+    "ride": 15,
+    "feed": "步行约8分钟到炮台山站",
+    "feedMin": 8,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11600
+      }
+    ],
+    "siteName": "建业大厦"
+  },
+  {
+    "id": "f39",
+    "name": "鰂鱼涌 滨海街15-53号",
+    "addr": "滨海街15-53号",
+    "price": 11500,
+    "area": 375,
+    "room": "两房",
+    "floor": "低层",
+    "year": 1964,
+    "ynote": "",
+    "note": "代理盘，置顶盘，洋楼有电梯",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4008736",
+    "lat": 22.284047,
+    "lng": 114.21622,
+    "wgs": [
+      22.28686,
+      114.21136
+    ],
+    "ride": 19,
+    "feed": "步行约3分钟到鰂鱼涌站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11500
+      }
+    ],
+    "siteName": "金海大厦"
+  },
+  {
+    "id": "f40",
+    "name": "鰂鱼涌 英皇道989-991号",
+    "addr": "英皇道 989-991 号",
+    "price": 9000,
+    "area": 150,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1974,
+    "ynote": "",
+    "note": "代理盘，独家盘，置顶盘，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-2801099",
+    "lat": 22.282986,
+    "lng": 114.216749,
+    "wgs": [
+      22.2858,
+      114.21189
+    ],
+    "ride": 19,
+    "feed": "步行约4分钟到鰂鱼涌站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9000
+      }
+    ],
+    "siteName": "新威园"
+  },
+  {
+    "id": "f41",
+    "name": "鰂鱼涌 英皇道993号",
+    "addr": "英皇道993号",
+    "price": 11000,
+    "area": 334,
+    "room": "两房",
+    "floor": "中层",
+    "year": 1967,
+    "ynote": "",
+    "note": "代理盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3997994",
+    "lat": 22.282627,
+    "lng": 114.216409,
+    "wgs": [
+      22.28544,
+      114.21155
+    ],
+    "ride": 19,
+    "feed": "步行约4分钟到鰂鱼涌站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": true,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11000
+      }
+    ],
+    "goneWhy": "页面出现下架字样"
+  },
+  {
+    "id": "f42",
+    "name": "鰂鱼涌 英皇道885-891号",
+    "addr": "英皇道885-891号",
+    "price": 11800,
+    "area": 198,
+    "room": "一房",
+    "floor": "中层",
+    "year": 1987,
+    "ynote": "",
+    "note": "代理盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-2066286",
+    "lat": 22.286129,
+    "lng": 114.214424,
+    "wgs": [
+      22.28894,
+      114.20956
+    ],
+    "ride": 19,
+    "feed": "步行约4分钟到鰂鱼涌站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11800
+      }
+    ],
+    "siteName": "富景阁"
+  },
+  {
+    "id": "f43",
+    "name": "鰂鱼涌 英皇道860-878号",
+    "addr": "英皇道860-878号",
+    "price": 7800,
+    "area": 140,
+    "room": "开放式",
+    "floor": "低层",
+    "year": 1958,
+    "ynote": "",
+    "note": "代理盘，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3892888",
+    "lat": 22.286799,
+    "lng": 114.214164,
+    "wgs": [
+      22.28961,
+      114.2093
+    ],
+    "ride": 19,
+    "feed": "步行约5分钟到鰂鱼涌站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 7800
+      }
+    ],
+    "siteName": "丽都大厦"
+  },
+  {
+    "id": "f44",
+    "name": "鰂鱼涌 英皇道995号",
+    "addr": "英皇道995号",
+    "price": 10600,
+    "area": 335,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1967,
+    "ynote": "",
+    "note": "代理盘，洋楼有电梯，有装修，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3895576",
+    "lat": 22.282426,
+    "lng": 114.217228,
+    "wgs": [
+      22.28524,
+      114.21237
+    ],
+    "ride": 19,
+    "feed": "步行约5分钟到鰂鱼涌站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10600
+      }
+    ],
+    "siteName": "宝利大厦"
+  },
+  {
+    "id": "f45",
+    "name": "鰂鱼涌 英皇道883号",
+    "addr": "英皇道883号",
+    "price": 9200,
+    "area": 170,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1961,
+    "ynote": "",
+    "note": "代理盘，洋楼有电梯，有装修，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4007304",
+    "lat": 22.287328,
+    "lng": 114.214793,
+    "wgs": [
+      22.29014,
+      114.20993
+    ],
+    "ride": 19,
+    "feed": "步行约6分钟到鰂鱼涌站",
+    "feedMin": 6,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9200
+      }
+    ],
+    "siteName": "丽景楼"
+  },
+  {
+    "id": "f46",
+    "name": "鰂鱼涌 英皇道1048-1056号",
+    "addr": "英皇道1048-1056号",
+    "price": 8500,
+    "area": 180,
+    "room": "一房",
+    "floor": "低层",
+    "year": 1972,
+    "ynote": "",
+    "note": "代理盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3964142",
+    "lat": 22.281276,
+    "lng": 114.217507,
+    "wgs": [
+      22.28409,
+      114.21265
+    ],
+    "ride": 19,
+    "feed": "步行约7分钟到鰂鱼涌站",
+    "feedMin": 7,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8800
+      },
+      {
+        "date": "2026-10-01",
+        "price": 8500
+      }
+    ],
+    "siteName": "得利楼"
+  },
+  {
+    "id": "f47",
+    "name": "鰂鱼涌 则鱼涌街122号",
+    "addr": "则鱼涌街122号",
+    "price": 7000,
+    "area": 180,
+    "room": "一房",
+    "floor": "中层",
+    "year": 1960,
+    "ynote": "",
+    "note": "业主盘免佣",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3944340",
+    "lat": 22.280076,
+    "lng": 114.217597,
+    "wgs": [
+      22.28289,
+      114.21274
+    ],
+    "ride": 19,
+    "feed": "步行约9分钟到鰂鱼涌站",
+    "feedMin": 9,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 7000
+      }
+    ],
+    "siteName": "太成楼"
+  },
+  {
+    "id": "f48",
+    "name": "鰂鱼涌 鰂鱼涌街121号",
+    "addr": "鰂鱼涌街121号",
+    "price": 11500,
+    "area": 312,
+    "room": "两房",
+    "floor": "低层",
+    "year": 1960,
+    "ynote": "",
+    "note": "代理盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4022464",
+    "lat": 22.280066,
+    "lng": 114.217737,
+    "wgs": [
+      22.28288,
+      114.21288
+    ],
+    "ride": 19,
+    "feed": "步行约9分钟到鰂鱼涌站",
+    "feedMin": 9,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11500
+      }
+    ],
+    "siteName": "太就楼"
+  },
+  {
+    "id": "f49",
+    "name": "鰂鱼涌 鰂鱼涌街123号",
+    "addr": "鰂鱼涌街123号",
+    "price": 11500,
+    "area": 312,
+    "room": "两房",
+    "floor": "中层",
+    "year": 1960,
+    "ynote": "",
+    "note": "代理盘，有装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4021966",
+    "lat": 22.279596,
+    "lng": 114.217747,
+    "wgs": [
+      22.28241,
+      114.21289
+    ],
+    "ride": 19,
+    "feed": "步行约10分钟到鰂鱼涌站",
+    "feedMin": 10,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11500
+      }
+    ],
+    "siteName": "太隆楼"
+  },
+  {
+    "id": "f50",
+    "name": "西湾河 筲箕湾道57-87号",
+    "addr": "筲箕湾道 57-87 号",
+    "price": 10800,
+    "area": 352,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1968,
+    "ynote": "",
+    "note": "代理盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3967295",
+    "lat": 22.279965,
+    "lng": 114.226859,
+    "wgs": [
+      22.28279,
+      114.22202
+    ],
+    "ride": 23,
+    "feed": "步行约1分钟到西湾河站",
+    "feedMin": 1,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10800
+      }
+    ],
+    "siteName": "太安楼"
+  },
+  {
+    "id": "f51",
+    "name": "西湾河 大石街17号",
+    "addr": "大石街17号",
+    "price": 11800,
+    "area": 197,
+    "room": "开放式",
+    "floor": "高层",
+    "year": 1997,
+    "ynote": "",
+    "note": "代理盘，置顶盘，有装修，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4025283",
+    "lat": 22.278867,
+    "lng": 114.225861,
+    "wgs": [
+      22.28169,
+      114.22102
+    ],
+    "ride": 23,
+    "feed": "步行约2分钟到西湾河站",
+    "feedMin": 2,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11800
+      }
+    ],
+    "siteName": "恒安阁"
+  },
+  {
+    "id": "f52",
+    "name": "西湾河 康祥街4号",
+    "addr": "康祥街4号",
+    "price": 10500,
+    "area": 311,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1962,
+    "ynote": "",
+    "note": "代理盘，有装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4006911",
+    "lat": 22.281136,
+    "lng": 114.2264,
+    "wgs": [
+      22.28396,
+      114.22156
+    ],
+    "ride": 23,
+    "feed": "步行约3分钟到西湾河站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10500
+      }
+    ],
+    "siteName": "太顺楼"
+  },
+  {
+    "id": "f53",
+    "name": "西湾河 康祥街2号",
+    "addr": "康祥街2号",
+    "price": 11000,
+    "area": 312,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1962,
+    "ynote": "",
+    "note": "代理盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3992063",
+    "lat": 22.281346,
+    "lng": 114.226231,
+    "wgs": [
+      22.28417,
+      114.22139
+    ],
+    "ride": 23,
+    "feed": "步行约4分钟到西湾河站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11000
+      }
+    ],
+    "siteName": "太祥楼"
+  },
+  {
+    "id": "f54",
+    "name": "西湾河 筲箕湾道239A号",
+    "addr": "筲箕湾道239A号",
+    "price": 12000,
+    "area": 170,
+    "room": "一房",
+    "floor": "待核实",
+    "year": 0,
+    "ynote": "",
+    "note": "代理盘，唐楼（需现场确认有无电梯），有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4018473",
+    "lat": 22.277043,
+    "lng": 114.230583,
+    "wgs": [
+      22.27987,
+      114.22575
+    ],
+    "ride": 23,
+    "feed": "步行约7分钟到西湾河站",
+    "feedMin": 7,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 12000
+      }
+    ],
+    "siteName": "筲箕湾道239A号"
+  },
+  {
+    "id": "f55",
+    "name": "筲箕湾 筲箕湾道210号",
+    "addr": "筲箕湾道210号",
+    "price": 10000,
+    "area": 279,
+    "room": "一房",
+    "floor": "待核实",
+    "year": 0,
+    "ynote": "",
+    "note": "代理盘，唐楼（需现场确认有无电梯），有装修，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4035555",
+    "lat": 22.277654,
+    "lng": 114.228656,
+    "wgs": [
+      22.28048,
+      114.22382
+    ],
+    "ride": 23,
+    "feed": "步行约4分钟到西湾河站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10000
+      }
+    ],
+    "siteName": "筲箕湾道210号"
+  },
+  {
+    "id": "f56",
+    "name": "筲箕湾 筲箕湾东大街138-142号",
+    "addr": "筲箕湾东大街138-142号",
+    "price": 8800,
+    "area": 284,
+    "room": "一房",
+    "floor": "待核实",
+    "year": 1964,
+    "ynote": "",
+    "note": "代理盘，唐楼（需现场确认有无电梯），连家俬",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3941726",
+    "lat": 22.27449,
+    "lng": 114.234667,
+    "wgs": [
+      22.27732,
+      114.22984
+    ],
+    "ride": 25,
+    "feed": "步行约3分钟到筲箕湾站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 8800
+      }
+    ],
+    "siteName": "仿文楼"
+  },
+  {
+    "id": "f57",
+    "name": "筲箕湾 东大街136号",
+    "addr": "筲箕湾东大街136号",
+    "price": 9100,
+    "area": 190,
+    "room": "一房",
+    "floor": "待核实",
+    "year": 0,
+    "ynote": "",
+    "note": "代理盘，洋楼有电梯，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3964863",
+    "lat": 22.2747,
+    "lng": 114.234757,
+    "wgs": [
+      22.27753,
+      114.22993
+    ],
+    "ride": 25,
+    "feed": "步行约3分钟到筲箕湾站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9100
+      }
+    ],
+    "siteName": "东大街136号"
+  },
+  {
+    "id": "f58",
+    "name": "筲箕湾 筲箕湾东大街177-183号",
+    "addr": "筲箕湾东大街177-183号",
+    "price": 10000,
+    "area": 220,
+    "room": "一房",
+    "floor": "中层",
+    "year": 1984,
+    "ynote": "",
+    "note": "代理盘，有装修，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4027274",
+    "lat": 22.27442,
+    "lng": 114.234886,
+    "wgs": [
+      22.27725,
+      114.23006
+    ],
+    "ride": 25,
+    "feed": "步行约3分钟到筲箕湾站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10000
+      }
+    ],
+    "siteName": "东豪大厦"
+  },
+  {
+    "id": "f59",
+    "name": "筲箕湾 筲箕湾东大街42-52号",
+    "addr": "筲箕湾东大街42-52号",
+    "price": 10500,
+    "area": 198,
+    "room": "两房",
+    "floor": "低层",
+    "year": 1977,
+    "ynote": "",
+    "note": "代理盘，独家盘，连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4018311",
+    "lat": 22.276959,
+    "lng": 114.234867,
+    "wgs": [
+      22.27979,
+      114.23004
+    ],
+    "ride": 25,
+    "feed": "步行约3分钟到筲箕湾站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10500
+      }
+    ],
+    "siteName": "金来大厦"
+  },
+  {
+    "id": "f60",
+    "name": "筲箕湾 南安街61-65号",
+    "addr": "南安街61-65号",
+    "price": 11800,
+    "area": 246,
+    "room": "一房",
+    "floor": "低层",
+    "year": 1988,
+    "ynote": "",
+    "note": "代理盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3990551",
+    "lat": 22.275672,
+    "lng": 114.231661,
+    "wgs": [
+      22.2785,
+      114.22683
+    ],
+    "ride": 25,
+    "feed": "步行约3分钟到筲箕湾站",
+    "feedMin": 3,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11800
+      }
+    ],
+    "siteName": "都富大厦"
+  },
+  {
+    "id": "f61",
+    "name": "筲箕湾 爱民街6-28号",
+    "addr": "爱民街6-28号",
+    "price": 10800,
+    "area": 280,
+    "room": "开放式",
+    "floor": "高层",
+    "year": 1973,
+    "ynote": "",
+    "note": "代理盘，置顶盘，有装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4009014",
+    "lat": 22.274322,
+    "lng": 114.231801,
+    "wgs": [
+      22.27715,
+      114.22697
+    ],
+    "ride": 25,
+    "feed": "步行约4分钟到筲箕湾站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10800
+      }
+    ],
+    "siteName": "新利大厦"
+  },
+  {
+    "id": "f62",
+    "name": "筲箕湾 爱民街30-50号",
+    "addr": "爱民街30-50号",
+    "price": 11900,
+    "area": 274,
+    "room": "一房",
+    "floor": "中层",
+    "year": 1973,
+    "ynote": "",
+    "note": "业主盘免佣，置顶盘",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4010440",
+    "lat": 22.274432,
+    "lng": 114.231691,
+    "wgs": [
+      22.27726,
+      114.22686
+    ],
+    "ride": 25,
+    "feed": "步行约4分钟到筲箕湾站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11900
+      }
+    ],
+    "siteName": "鸿利大厦"
+  },
+  {
+    "id": "f63",
+    "name": "筲箕湾 西湾河街7号",
+    "addr": "西湾河街7号",
+    "price": 11500,
+    "area": 268,
+    "room": "开放式",
+    "floor": "高层",
+    "year": 1976,
+    "ynote": "",
+    "note": "代理盘，有装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3981686",
+    "lat": 22.276883,
+    "lng": 114.229804,
+    "wgs": [
+      22.27971,
+      114.22497
+    ],
+    "ride": 23,
+    "feed": "步行约7分钟到西湾河站",
+    "feedMin": 7,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 11500
+      }
+    ],
+    "siteName": "西湾大厦"
+  },
+  {
+    "id": "g1",
+    "name": "大围 兴盛大厦",
+    "addr": "积辉街7-9号",
+    "price": 12000,
+    "area": 263,
+    "room": "开放式",
+    "floor": "中层",
+    "year": 1986,
+    "ynote": "",
+    "note": "代理盘，洋楼有电梯",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4025773",
+    "lat": 22.371936,
+    "lng": 114.18207,
+    "wgs": [
+      22.37471,
+      114.17712
+    ],
+    "ride": 15,
+    "feed": "步行约4分钟到大围站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 12000
+      }
+    ],
+    "siteName": "兴盛大厦"
+  },
+  {
+    "id": "g2",
+    "name": "大围 大围村",
+    "addr": "积富街",
+    "price": 9000,
+    "area": 280,
+    "room": "开放式",
+    "floor": "待核实",
+    "year": 0,
+    "ynote": "",
+    "note": "代理盘，村屋（需确认独立厨厕、水电网）",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4000512",
+    "lat": 22.372754,
+    "lng": 114.182947,
+    "wgs": [
+      22.37553,
+      114.178
+    ],
+    "ride": 15,
+    "feed": "步行约5分钟到大围站",
+    "feedMin": 5,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 9000
+      }
+    ],
+    "siteName": "大围村"
+  },
+  {
+    "id": "g3",
+    "name": "沙田 排头村",
+    "addr": "排头村",
+    "price": 5300,
+    "area": 150,
+    "room": "一房",
+    "floor": "低层",
+    "year": 0,
+    "ynote": "",
+    "note": "业主盘免佣，村屋（需确认独立厨厕、水电网），连家俬，连电器",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4035916",
+    "lat": 22.381978,
+    "lng": 114.191016,
+    "wgs": [
+      22.38477,
+      114.18609
+    ],
+    "ride": 18,
+    "feed": "步行约4分钟到沙田站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 5300
+      }
+    ],
+    "siteName": "排头村"
+  },
+  {
+    "id": "g4",
+    "name": "大围 铜锣湾村",
+    "addr": "铜锣湾山路",
+    "price": 10000,
+    "area": 380,
+    "room": "开放式",
+    "floor": "低层",
+    "year": 0,
+    "ynote": "",
+    "note": "业主盘免佣，村屋（需确认独立厨厕、水电网）",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4035772",
+    "lat": 22.374974,
+    "lng": 114.186183,
+    "wgs": [
+      22.37776,
+      114.18124
+    ],
+    "ride": 15,
+    "feed": "步行约10分钟到大围站",
+    "feedMin": 10,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10000
+      }
+    ],
+    "siteName": "铜锣湾村"
+  },
+  {
+    "id": "g5",
+    "name": "沙田 翠华花园",
+    "addr": "沙角街7-11号",
+    "price": 10800,
+    "area": 215,
+    "room": "一房",
+    "floor": "高层",
+    "year": 1984,
+    "ynote": "",
+    "note": "代理盘，置顶盘，有装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-4014903",
+    "lat": 22.37676,
+    "lng": 114.20141,
+    "wgs": [
+      22.37957,
+      114.19651
+    ],
+    "ride": 22,
+    "feed": "步行约4分钟到沙田围站",
+    "feedMin": 4,
+    "ok": true,
+    "walk": false,
+    "est": true,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 10800
+      }
+    ],
+    "siteName": "翠华花园"
+  },
+  {
+    "id": "g6",
+    "name": "大围 黎刘苑",
+    "addr": "恒乐里10号",
+    "price": 6800,
+    "area": 196,
+    "room": "开放式",
+    "floor": "高层",
+    "year": 1974,
+    "ynote": "",
+    "note": "代理盘，独家盘，置顶盘，有装修",
+    "url": "https://www.28hse.com.cn/rent/apartment/property-3881533",
+    "lat": 22.376834,
+    "lng": 114.187805,
+    "wgs": [
+      22.37962,
+      114.18287
+    ],
+    "ride": 18,
+    "feed": "步行约9分钟到沙田站",
+    "feedMin": 9,
+    "ok": true,
+    "walk": false,
+    "est": false,
+    "delisted": false,
+    "lastSeen": "2026-10-01",
+    "priceHistory": [
+      {
+        "date": "2026-10-01",
+        "price": 6800
+      }
+    ],
+    "siteName": "黎刘苑"
+  }
+]
