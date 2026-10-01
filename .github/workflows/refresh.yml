@@ -2,8 +2,9 @@ name: 刷新租房数据
 
 on:
   schedule:
-    # 每周一 00:00 UTC = 香港时间 08:00（GitHub 的 cron 一律用 UTC）
-    - cron: '0 0 * * 1'
+    # GitHub 的 cron 一律用 UTC。北京时间 = UTC+8，所以要减 8 小时：
+    #   北京时间 09:00 / 16:00 / 23:00  →  UTC 01:00 / 08:00 / 15:00
+    - cron: '0 1,8,15 * * *'
   workflow_dispatch:          # 允许手动触发：仓库页 Actions → 本工作流 → Run workflow
 
 permissions:
