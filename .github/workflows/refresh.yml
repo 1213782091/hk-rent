@@ -17,34 +17,40 @@ jobs:
 
     steps:
       - name: 取出仓库
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: 准备 Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.12'
 
       # scrape.py 只用标准库（urllib），不需要 pip install
       - name: 巡检 28Hse 在架状态与最新租金
+        env:
+          RUN_SUMMARY: ${{ runner.temp }}/summary.md
         run: python scrape.py
 
-      - name: 用最新数据重新生成页面
-        run: python build.py
-
-      - name: 提交更新（无变化则跳过）
+      # scrape.py 只在有实质变化（下架 / 改价）时才写文件，
+      # 所以这里看 data/ 有没有 diff，就知道该不该重建和提交。
+      - name: 有变化才重新生成页面并提交
         run: |
+          if git diff --quiet -- data/; then
+            echo "本次巡检没有实质变化，跳过重建与提交"
+            exit 0
+          fi
+          python build.py
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          if git diff --cached --quiet; then
-            echo "本次巡检没有发现变化，跳过提交"
-          else
-            git commit -m "data: 自动巡检 $(date -u +%Y-%m-%d)"
-            git push
-            echo "已提交更新"
-          fi
+          git commit -m "data: 自动巡检 $(date -u +%Y-%m-%d)"
+          git push
+          echo "已提交更新"
 
       - name: 汇总
+        if: always()
         run: |
-          echo "### 本次巡检结果" >> $GITHUB_STEP_SUMMARY
-          cat data/changes.md >> $GITHUB_STEP_SUMMARY
+          if [ -f "${{ runner.temp }}/summary.md" ]; then
+            cat "${{ runner.temp }}/summary.md" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "巡检脚本未产出摘要，请查看上面的步骤日志。" >> $GITHUB_STEP_SUMMARY
+          fi

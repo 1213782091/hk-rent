@@ -13,6 +13,11 @@
     2. 页面出现「已下架 / 已租出 / 已成交」等字样   → 已下架
     3. <title> 里找不到 #房源编号             → 已下架（多半被重定向到列表页）
     抓不到租金但上述信号都没触发            → 保留在架，只在日志里标注「解析失败」
+
+写入策略：
+    只有出现**实质变化**（房源下架 / 租金变动）才写回 spots.json 并向 changes.md 追加一条记录。
+    没有实质变化时**一个文件都不碰** —— 这样仓库里每一次自动提交都对应一次真实变化。
+    无论有无变化，本次运行的摘要都会写到环境变量 RUN_SUMMARY 指定的文件（供 Actions 展示）。
 """
 import argparse
 import json
@@ -28,6 +33,46 @@ from concurrent.futures import ThreadPoolExecutor
 ROOT = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(ROOT, 'data', 'spots.json')
 REPORT = os.path.join(ROOT, 'data', 'changes.md')
+
+REPORT_HEAD = """# 数据变化记录
+
+本文件**只记录发生实质变化**的巡检结果（房源下架 / 租金变动），按时间倒序，最新在最上面。
+
+没有变化的巡检不写入 —— 每次运行的完整结果见仓库 **Actions** 页的运行摘要。
+
+<!-- NEW -->
+"""
+
+MAX_ENTRIES = 200
+
+
+def prepend_report(entry):
+    """把本次条目插到 <!-- NEW --> 标记下方，超出上限则截断最旧的。"""
+    try:
+        old = open(REPORT, encoding='utf-8').read()
+    except FileNotFoundError:
+        old = ''
+    if '<!-- NEW -->' not in old:
+        old = REPORT_HEAD + '\n' + old
+    head, _, tail = old.partition('<!-- NEW -->')
+    body = '\n'.join(entry).rstrip() + '\n\n'
+    merged = head + '<!-- NEW -->\n\n' + body + tail.lstrip('\n')
+
+    parts = merged.split('\n## ')
+    if len(parts) > MAX_ENTRIES + 1:
+        merged = parts[0] + '\n## ' + '\n## '.join(parts[1:MAX_ENTRIES + 1]).rstrip() + '\n'
+    open(REPORT, 'w', encoding='utf-8', newline='').write(merged)
+
+
+def write_summary(lines):
+    """把本次运行摘要写到 RUN_SUMMARY 指定的文件（供 Actions 展示），不写进仓库。"""
+    p = os.environ.get('RUN_SUMMARY')
+    if not p:
+        return
+    try:
+        open(p, 'w', encoding='utf-8', newline='').write('\n'.join(lines) + '\n')
+    except OSError:
+        pass
 
 UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
       '(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36')
@@ -191,35 +236,57 @@ def main():
     print('在架 %d ｜ 新增下架 %d ｜ 改价 %d（其中大幅 %d）｜ 网络失败 %d'
           % (kept, len(gone), len(changed), len(big), unknown))
 
-    lines = ['# 数据变化报告', '', '巡检日期：%s' % today, '',
-             '在架 **%d** 套 ｜ 本次新发现下架 **%d** 套 ｜ 改价 **%d** 套 ｜ 网络失败 **%d** 套'
-             % (kept, len(gone), len(changed), unknown), '']
+    # 「实质变化」= 有房源下架，或有租金变动。
+    # 只有实质变化才落盘 —— 这样 git 历史里每一次提交都对应一次真实变化，
+    # 不会被 lastSeen 这类「心跳」字段搅成每天一堆无意义提交。
+    meaningful = bool(gone or changed)
+    stamp = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M')
+
+    summary = ['### 本次巡检结果', '',
+               '巡检时间：%s UTC　｜　数据日期：%s' % (stamp, today), '',
+               '| 指标 | 数值 |', '|---|---|',
+               '| 在架 | **%d** 套 |' % kept,
+               '| 新发现下架 | **%d** 套 |' % len(gone),
+               '| 租金变化 | **%d** 套 |' % len(changed),
+               '| 网络失败 | **%d** 套 |' % unknown, '']
+
+    if not meaningful:
+        summary.append('本次巡检**没有实质变化**，未写入任何文件，也未产生提交。')
+        write_summary(summary)
+        print('本次巡检没有实质变化，不写入文件。')
+        if args.dry:
+            print('--dry：不写入文件')
+        return
+
+    entry = ['## %s UTC　在架 %d ｜ 下架 %d ｜ 改价 %d ｜ 网络失败 %d'
+             % (stamp, kept, len(gone), len(changed), unknown), '']
     if gone:
-        lines += ['## 已下架', '']
+        entry += ['**新发现下架**', '']
         for s, r in gone:
-            lines.append('- `%s` %s（%s）— %s' % (s['id'], s['name'], s['addr'], r['why']))
-        lines.append('')
+            entry.append('- `%s` %s（%s）— %s' % (s['id'], s['name'], s['addr'], r['why']))
+        entry.append('')
     if changed:
-        lines += ['## 租金变化', '']
+        entry += ['**租金变化**', '']
         for s, old, new in sorted(changed, key=lambda c: -abs(c[2] - c[1]) / c[1]):
             arrow = '↓' if new < old else '↑'
             pct = (new - old) / old * 100
             flag = ''
             if abs(pct) > 30:
                 flag = '　⚠️ **幅度异常，建议核对链接是否指向另一套房**（页面楼名：%s）' % s.get('siteName', '?')
-            lines.append('- `%s` %s：HK$%s → HK$%s　%s%.1f%%%s'
+            entry.append('- `%s` %s：HK$%s → HK$%s　%s%.1f%%%s'
                          % (s['id'], s['name'], format(old, ','), format(new, ','), arrow, abs(pct), flag))
-        lines.append('')
-    if not gone and not changed:
-        lines.append('本次巡检没有发现变化。')
-        lines.append('')
+        entry.append('')
+
+    summary += ['**本次变化**', ''] + [l for l in entry[2:] if l]
+    write_summary(summary)
 
     if args.dry:
-        print('--dry：不写回文件')
-    else:
-        json.dump(spots, open(STATE, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
-        open(REPORT, 'w', encoding='utf-8', newline='').write('\n'.join(lines))
-        print('已写回 data/spots.json 与 data/changes.md')
+        print('--dry：不写回文件（本次有实质变化：下架 %d、改价 %d）' % (len(gone), len(changed)))
+        return
+
+    json.dump(spots, open(STATE, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+    prepend_report(entry)
+    print('已写回 data/spots.json，并向 data/changes.md 追加一条记录')
 
 
 if __name__ == '__main__':
