@@ -93,7 +93,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -105,7 +105,8 @@
         "price": 8300
       }
     ],
-    "siteName": "长辉大厦"
+    "siteName": "长辉大厦",
+    "goneWhy": "标题中无 #4028142（疑似重定向）"
   },
   {
     "id": "w4",
@@ -131,7 +132,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -139,7 +140,8 @@
         "price": 7800
       }
     ],
-    "siteName": "广福大厦"
+    "siteName": "广福大厦",
+    "goneWhy": "标题中无 #3991547（疑似重定向）"
   },
   {
     "id": "w5",
@@ -165,7 +167,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -173,7 +175,8 @@
         "price": 7300
       }
     ],
-    "siteName": "康乐大楼"
+    "siteName": "康乐大楼",
+    "goneWhy": "标题中无 #4016770（疑似重定向）"
   },
   {
     "id": "w6",
@@ -199,7 +202,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -207,7 +210,8 @@
         "price": 8000
       }
     ],
-    "siteName": "先施大厦"
+    "siteName": "先施大厦",
+    "goneWhy": "标题中无 #4009688（疑似重定向）"
   },
   {
     "id": "y1",
@@ -233,7 +237,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -241,7 +245,8 @@
         "price": 9800
       }
     ],
-    "siteName": "海威大厦"
+    "siteName": "海威大厦",
+    "goneWhy": "标题中无 #3964877（疑似重定向）"
   },
   {
     "id": "y3",
@@ -267,7 +272,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -279,7 +284,8 @@
         "price": 10200
       }
     ],
-    "siteName": "远东发展旺角大厦"
+    "siteName": "远东发展旺角大厦",
+    "goneWhy": "标题中无 #4005708（疑似重定向）"
   },
   {
     "id": "y4",
@@ -305,7 +311,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -313,7 +319,8 @@
         "price": 7300
       }
     ],
-    "siteName": "上海街370号"
+    "siteName": "上海街370号",
+    "goneWhy": "标题中无 #3210247（疑似重定向）"
   },
   {
     "id": "y6",
@@ -339,7 +346,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -347,7 +354,8 @@
         "price": 9200
       }
     ],
-    "siteName": "东安阁"
+    "siteName": "东安阁",
+    "goneWhy": "标题中无 #4000333（疑似重定向）"
   },
   {
     "id": "j1",
@@ -408,7 +416,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -416,7 +424,8 @@
         "price": 6900
       }
     ],
-    "siteName": "福乐大厦"
+    "siteName": "福乐大厦",
+    "goneWhy": "标题中无 #3637111（疑似重定向）"
   },
   {
     "id": "j3",
@@ -442,7 +451,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -450,7 +459,8 @@
         "price": 5800
       }
     ],
-    "siteName": "馀庆大厦"
+    "siteName": "馀庆大厦",
+    "goneWhy": "标题中无 #4025374（疑似重定向）"
   },
   {
     "id": "j5",
@@ -476,7 +486,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -484,7 +494,8 @@
         "price": 8980
       }
     ],
-    "siteName": "康信大厦"
+    "siteName": "康信大厦",
+    "goneWhy": "标题中无 #4020210（疑似重定向）"
   },
   {
     "id": "s1",
@@ -510,7 +521,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -522,7 +533,8 @@
         "price": 6800
       }
     ],
-    "siteName": "新元洲大厦"
+    "siteName": "新元洲大厦",
+    "goneWhy": "标题中无 #4000267（疑似重定向）"
   },
   {
     "id": "s2",
@@ -548,7 +560,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -556,7 +568,8 @@
         "price": 11800
       }
     ],
-    "siteName": "恒宁阁"
+    "siteName": "恒宁阁",
+    "goneWhy": "标题中无 #4028220（疑似重定向）"
   },
   {
     "id": "s4",
@@ -582,7 +595,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -590,7 +603,8 @@
         "price": 9000
       }
     ],
-    "siteName": "顺发大厦"
+    "siteName": "顺发大厦",
+    "goneWhy": "标题中无 #4027277（疑似重定向）"
   },
   {
     "id": "h1",
@@ -616,7 +630,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -624,7 +638,8 @@
         "price": 12000
       }
     ],
-    "siteName": "怡富大厦"
+    "siteName": "怡富大厦",
+    "goneWhy": "标题中无 #4033922（疑似重定向）"
   },
   {
     "id": "k1",
@@ -685,7 +700,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -693,7 +708,8 @@
         "price": 9500
       }
     ],
-    "siteName": "单幢楼房"
+    "siteName": "单幢楼房",
+    "goneWhy": "标题中无 #4034296（疑似重定向）"
   },
   {
     "id": "c2",
@@ -754,7 +770,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -762,7 +778,8 @@
         "price": 8600
       }
     ],
-    "siteName": "宏华大楼"
+    "siteName": "宏华大楼",
+    "goneWhy": "标题中无 #4004897（疑似重定向）"
   },
   {
     "id": "c4",
@@ -823,7 +840,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -831,7 +848,8 @@
         "price": 8800
       }
     ],
-    "siteName": "金华大楼"
+    "siteName": "金华大楼",
+    "goneWhy": "标题中无 #4002844（疑似重定向）"
   },
   {
     "id": "c6",
@@ -857,7 +875,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -865,7 +883,8 @@
         "price": 6500
       }
     ],
-    "siteName": "东成大厦(南昌街)"
+    "siteName": "东成大厦(南昌街)",
+    "goneWhy": "标题中无 #3978222（疑似重定向）"
   },
   {
     "id": "c7",
@@ -891,7 +910,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -899,7 +918,8 @@
         "price": 6500
       }
     ],
-    "siteName": "宝丰大厦"
+    "siteName": "宝丰大厦",
+    "goneWhy": "标题中无 #4021616（疑似重定向）"
   },
   {
     "id": "c8",
@@ -925,7 +945,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -933,7 +953,8 @@
         "price": 7600
       }
     ],
-    "siteName": "永明大厦"
+    "siteName": "永明大厦",
+    "goneWhy": "标题中无 #4001509（疑似重定向）"
   },
   {
     "id": "c9",
@@ -959,7 +980,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -967,7 +988,8 @@
         "price": 8500
       }
     ],
-    "siteName": "海坛大厦"
+    "siteName": "海坛大厦",
+    "goneWhy": "标题中无 #4032507（疑似重定向）"
   },
   {
     "id": "c10",
@@ -993,7 +1015,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1001,7 +1023,8 @@
         "price": 8800
       }
     ],
-    "siteName": "崇雅楼"
+    "siteName": "崇雅楼",
+    "goneWhy": "标题中无 #4017441（疑似重定向）"
   },
   {
     "id": "c11",
@@ -1027,7 +1050,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1035,7 +1058,8 @@
         "price": 8800
       }
     ],
-    "siteName": "祥辉大厦"
+    "siteName": "祥辉大厦",
+    "goneWhy": "标题中无 #4019168（疑似重定向）"
   },
   {
     "id": "c12",
@@ -1061,7 +1085,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1069,7 +1093,8 @@
         "price": 9500
       }
     ],
-    "siteName": "祥康大厦"
+    "siteName": "祥康大厦",
+    "goneWhy": "标题中无 #4013704（疑似重定向）"
   },
   {
     "id": "c13",
@@ -1095,7 +1120,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1103,7 +1128,8 @@
         "price": 9500
       }
     ],
-    "siteName": "温馨阁"
+    "siteName": "温馨阁",
+    "goneWhy": "标题中无 #4016463（疑似重定向）"
   },
   {
     "id": "c14",
@@ -1129,7 +1155,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1141,7 +1167,8 @@
         "price": 6900
       }
     ],
-    "siteName": "大角咀大厦"
+    "siteName": "大角咀大厦",
+    "goneWhy": "标题中无 #4018268（疑似重定向）"
   },
   {
     "id": "a2",
@@ -1167,7 +1194,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1175,7 +1202,8 @@
         "price": 10800
       }
     ],
-    "siteName": "葵星中心"
+    "siteName": "葵星中心",
+    "goneWhy": "标题中无 #4015292（疑似重定向）"
   },
   {
     "id": "a3",
@@ -1201,7 +1229,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1209,7 +1237,8 @@
         "price": 10500
       }
     ],
-    "siteName": "上然"
+    "siteName": "上然",
+    "goneWhy": "标题中无 #4030040（疑似重定向）"
   },
   {
     "id": "a4",
@@ -1235,7 +1264,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1243,7 +1272,8 @@
         "price": 11800
       }
     ],
-    "siteName": "粉岭名都"
+    "siteName": "粉岭名都",
+    "goneWhy": "标题中无 #4030519（疑似重定向）"
   },
   {
     "id": "a5",
@@ -1269,7 +1299,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1277,7 +1307,8 @@
         "price": 12000
       }
     ],
-    "siteName": "碧湖花园"
+    "siteName": "碧湖花园",
+    "goneWhy": "标题中无 #4030122（疑似重定向）"
   },
   {
     "id": "a6",
@@ -1338,7 +1369,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1346,7 +1377,8 @@
         "price": 12000
       }
     ],
-    "siteName": "One Innovale"
+    "siteName": "One Innovale",
+    "goneWhy": "标题中无 #4028903（疑似重定向）"
   },
   {
     "id": "a9",
@@ -1372,7 +1404,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1384,7 +1416,8 @@
         "price": 11800
       }
     ],
-    "siteName": "上然"
+    "siteName": "上然",
+    "goneWhy": "标题中无 #4028729（疑似重定向）"
   },
   {
     "id": "a10",
@@ -1410,7 +1443,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1418,7 +1451,8 @@
         "price": 12000
       }
     ],
-    "siteName": "上然"
+    "siteName": "上然",
+    "goneWhy": "标题中无 #4028353（疑似重定向）"
   },
   {
     "id": "a11",
@@ -1444,7 +1478,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1452,7 +1486,8 @@
         "price": 12000
       }
     ],
-    "siteName": "上然"
+    "siteName": "上然",
+    "goneWhy": "标题中无 #4027841（疑似重定向）"
   },
   {
     "id": "a12",
@@ -1478,7 +1513,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1486,7 +1521,8 @@
         "price": 11500
       }
     ],
-    "siteName": "上然"
+    "siteName": "上然",
+    "goneWhy": "标题中无 #4026536（疑似重定向）"
   },
   {
     "id": "a15",
@@ -1512,7 +1548,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1520,7 +1556,8 @@
         "price": 11800
       }
     ],
-    "siteName": "粉岭名都"
+    "siteName": "粉岭名都",
+    "goneWhy": "标题中无 #4021376（疑似重定向）"
   },
   {
     "id": "a16",
@@ -1546,7 +1583,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1554,7 +1591,8 @@
         "price": 12000
       }
     ],
-    "siteName": "粉岭名都"
+    "siteName": "粉岭名都",
+    "goneWhy": "标题中无 #4013647（疑似重定向）"
   },
   {
     "id": "a17",
@@ -1580,7 +1618,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1588,7 +1626,8 @@
         "price": 11000
       }
     ],
-    "siteName": "葵星中心"
+    "siteName": "葵星中心",
+    "goneWhy": "标题中无 #4014343（疑似重定向）"
   },
   {
     "id": "a19",
@@ -1614,7 +1653,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1622,7 +1661,8 @@
         "price": 10200
       }
     ],
-    "siteName": "德昌大厦"
+    "siteName": "德昌大厦",
+    "goneWhy": "标题中无 #3530989（疑似重定向）"
   },
   {
     "id": "a20",
@@ -1648,7 +1688,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1656,7 +1696,8 @@
         "price": 10800
       }
     ],
-    "siteName": "豪华阁"
+    "siteName": "豪华阁",
+    "goneWhy": "标题中无 #4019393（疑似重定向）"
   },
   {
     "id": "b1",
@@ -1682,7 +1723,7 @@
     "ok": false,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1694,7 +1735,8 @@
         "price": 18500
       }
     ],
-    "siteName": "升御门"
+    "siteName": "升御门",
+    "goneWhy": "标题中无 #4025223（疑似重定向）"
   },
   {
     "id": "b2",
@@ -1760,7 +1802,7 @@
     "ok": false,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1768,7 +1810,8 @@
         "price": 13800
       }
     ],
-    "siteName": "沙田第一城"
+    "siteName": "沙田第一城",
+    "goneWhy": "标题中无 #4021567（疑似重定向）"
   },
   {
     "id": "b5",
@@ -1794,7 +1837,7 @@
     "ok": false,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1802,7 +1845,8 @@
         "price": 23000
       }
     ],
-    "siteName": "柏傲庄"
+    "siteName": "柏傲庄",
+    "goneWhy": "标题中无 #4021154（疑似重定向）"
   },
   {
     "id": "e1",
@@ -1828,7 +1872,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1836,7 +1880,8 @@
         "price": 4500
       }
     ],
-    "siteName": "美景楼1期"
+    "siteName": "美景楼1期",
+    "goneWhy": "标题中无 #4007090（疑似重定向）"
   },
   {
     "id": "e2",
@@ -1862,7 +1907,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1870,7 +1915,8 @@
         "price": 6200
       }
     ],
-    "siteName": "美景楼2期"
+    "siteName": "美景楼2期",
+    "goneWhy": "标题中无 #4033646（疑似重定向）"
   },
   {
     "id": "e3",
@@ -1896,7 +1942,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1904,7 +1950,8 @@
         "price": 6300
       }
     ],
-    "siteName": "益丰大厦"
+    "siteName": "益丰大厦",
+    "goneWhy": "标题中无 #3974225（疑似重定向）"
   },
   {
     "id": "e4",
@@ -1930,7 +1977,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1942,7 +1989,8 @@
         "price": 16000
       }
     ],
-    "siteName": "晨乐大厦"
+    "siteName": "晨乐大厦",
+    "goneWhy": "标题中无 #4033911（疑似重定向）"
   },
   {
     "id": "e5",
@@ -1968,7 +2016,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -1976,7 +2024,8 @@
         "price": 6800
       }
     ],
-    "siteName": "崇廉楼"
+    "siteName": "崇廉楼",
+    "goneWhy": "标题中无 #4007490（疑似重定向）"
   },
   {
     "id": "e6",
@@ -2002,7 +2051,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2010,7 +2059,8 @@
         "price": 8200
       }
     ],
-    "siteName": "新裕大厦"
+    "siteName": "新裕大厦",
+    "goneWhy": "标题中无 #4028489（疑似重定向）"
   },
   {
     "id": "e7",
@@ -2036,7 +2086,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2044,7 +2094,8 @@
         "price": 8500
       }
     ],
-    "siteName": "伟德楼"
+    "siteName": "伟德楼",
+    "goneWhy": "标题中无 #3938815（疑似重定向）"
   },
   {
     "id": "e8",
@@ -2070,7 +2121,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2078,7 +2129,8 @@
         "price": 9000
       }
     ],
-    "siteName": "宏丰大厦"
+    "siteName": "宏丰大厦",
+    "goneWhy": "标题中无 #3199677（疑似重定向）"
   },
   {
     "id": "e9",
@@ -2104,7 +2156,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2116,7 +2168,8 @@
         "price": 11500
       }
     ],
-    "siteName": "安康大厦"
+    "siteName": "安康大厦",
+    "goneWhy": "标题中无 #4034355（疑似重定向）"
   },
   {
     "id": "e10",
@@ -2142,7 +2195,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2150,7 +2203,8 @@
         "price": 10500
       }
     ],
-    "siteName": "安和园"
+    "siteName": "安和园",
+    "goneWhy": "标题中无 #4003538（疑似重定向）"
   },
   {
     "id": "e11",
@@ -2176,7 +2230,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2184,7 +2238,8 @@
         "price": 10500
       }
     ],
-    "siteName": "德信大厦"
+    "siteName": "德信大厦",
+    "goneWhy": "标题中无 #4023561（疑似重定向）"
   },
   {
     "id": "e12",
@@ -2210,7 +2265,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2218,7 +2273,8 @@
         "price": 11000
       }
     ],
-    "siteName": "定安大厦"
+    "siteName": "定安大厦",
+    "goneWhy": "标题中无 #4033249（疑似重定向）"
   },
   {
     "id": "e13",
@@ -2244,7 +2300,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2252,7 +2308,8 @@
         "price": 11000
       }
     ],
-    "siteName": "德宝大厦"
+    "siteName": "德宝大厦",
+    "goneWhy": "标题中无 #4034227（疑似重定向）"
   },
   {
     "id": "e14",
@@ -2278,7 +2335,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2294,7 +2351,8 @@
         "price": 10900
       }
     ],
-    "siteName": "东兴大楼"
+    "siteName": "东兴大楼",
+    "goneWhy": "标题中无 #3940424（疑似重定向）"
   },
   {
     "id": "e15",
@@ -2320,7 +2378,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2328,7 +2386,8 @@
         "price": 11500
       }
     ],
-    "siteName": "同顺兴大厦"
+    "siteName": "同顺兴大厦",
+    "goneWhy": "标题中无 #3884511（疑似重定向）"
   },
   {
     "id": "e16",
@@ -2354,7 +2413,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2362,7 +2421,8 @@
         "price": 11600
       }
     ],
-    "siteName": "荣林大厦"
+    "siteName": "荣林大厦",
+    "goneWhy": "标题中无 #4000523（疑似重定向）"
   },
   {
     "id": "e17",
@@ -2388,7 +2448,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2396,7 +2456,8 @@
         "price": 11800
       }
     ],
-    "siteName": "宝德大厦"
+    "siteName": "宝德大厦",
+    "goneWhy": "标题中无 #4035917（疑似重定向）"
   },
   {
     "id": "e18",
@@ -2422,7 +2483,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2430,7 +2491,8 @@
         "price": 11800
       }
     ],
-    "siteName": "侨发大厦"
+    "siteName": "侨发大厦",
+    "goneWhy": "标题中无 #4002107（疑似重定向）"
   },
   {
     "id": "e19",
@@ -2456,7 +2518,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2464,7 +2526,8 @@
         "price": 5600
       }
     ],
-    "siteName": "马头围道170-172号"
+    "siteName": "马头围道170-172号",
+    "goneWhy": "标题中无 #4015150（疑似重定向）"
   },
   {
     "id": "e20",
@@ -2490,7 +2553,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2498,7 +2561,8 @@
         "price": 8300
       }
     ],
-    "siteName": "日康阁"
+    "siteName": "日康阁",
+    "goneWhy": "标题中无 #3926087（疑似重定向）"
   },
   {
     "id": "e21",
@@ -2524,7 +2588,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2532,7 +2596,8 @@
         "price": 8900
       }
     ],
-    "siteName": "顺景楼"
+    "siteName": "顺景楼",
+    "goneWhy": "标题中无 #4034689（疑似重定向）"
   },
   {
     "id": "e22",
@@ -2558,7 +2623,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2570,7 +2635,8 @@
         "price": 8000
       }
     ],
-    "siteName": "新泰楼"
+    "siteName": "新泰楼",
+    "goneWhy": "标题中无 #4029104（疑似重定向）"
   },
   {
     "id": "e23",
@@ -2596,7 +2662,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2604,7 +2670,8 @@
         "price": 9500
       }
     ],
-    "siteName": "AVA55"
+    "siteName": "AVA55",
+    "goneWhy": "标题中无 #3922719（疑似重定向）"
   },
   {
     "id": "e24",
@@ -2630,7 +2697,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2638,7 +2705,8 @@
         "price": 10500
       }
     ],
-    "siteName": "金富楼"
+    "siteName": "金富楼",
+    "goneWhy": "标题中无 #4032073（疑似重定向）"
   },
   {
     "id": "e25",
@@ -2699,7 +2767,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2707,7 +2775,8 @@
         "price": 10800
       }
     ],
-    "siteName": "MW Easton"
+    "siteName": "MW Easton",
+    "goneWhy": "标题中无 #4018194（疑似重定向）"
   },
   {
     "id": "e27",
@@ -2733,7 +2802,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2741,7 +2810,8 @@
         "price": 11000
       }
     ],
-    "siteName": "嘉富楼"
+    "siteName": "嘉富楼",
+    "goneWhy": "标题中无 #4012897（疑似重定向）"
   },
   {
     "id": "e28",
@@ -2767,7 +2837,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2775,7 +2845,8 @@
         "price": 11500
       }
     ],
-    "siteName": "龙珠楼"
+    "siteName": "龙珠楼",
+    "goneWhy": "标题中无 #2734251（疑似重定向）"
   },
   {
     "id": "e29",
@@ -2801,7 +2872,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2809,7 +2880,8 @@
         "price": 9900
       }
     ],
-    "siteName": "泰丰楼"
+    "siteName": "泰丰楼",
+    "goneWhy": "标题中无 #4029559（疑似重定向）"
   },
   {
     "id": "e30",
@@ -2835,7 +2907,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2843,7 +2915,8 @@
         "price": 9900
       }
     ],
-    "siteName": "狮子石道15号"
+    "siteName": "狮子石道15号",
+    "goneWhy": "标题中无 #2708920（疑似重定向）"
   },
   {
     "id": "e31",
@@ -2869,7 +2942,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2877,7 +2950,8 @@
         "price": 12000
       }
     ],
-    "siteName": "裕联大厦"
+    "siteName": "裕联大厦",
+    "goneWhy": "标题中无 #4004882（疑似重定向）"
   },
   {
     "id": "e32",
@@ -2903,7 +2977,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2911,7 +2985,8 @@
         "price": 5500
       }
     ],
-    "siteName": "建煌楼"
+    "siteName": "建煌楼",
+    "goneWhy": "标题中无 #4017827（疑似重定向）"
   },
   {
     "id": "e33",
@@ -2937,7 +3012,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -2945,7 +3020,8 @@
         "price": 6300
       }
     ],
-    "siteName": "如意楼"
+    "siteName": "如意楼",
+    "goneWhy": "标题中无 #3754878（疑似重定向）"
   },
   {
     "id": "e34",
@@ -2972,7 +3048,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3006,7 +3082,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3079,7 +3155,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3121,7 +3197,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3155,7 +3231,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3193,7 +3269,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3261,7 +3337,7 @@
     "ok": true,
     "walk": true,
     "est": true,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -3269,7 +3345,8 @@
         "price": 6200
       }
     ],
-    "siteName": "怡明阁"
+    "siteName": "怡明阁",
+    "goneWhy": "标题中无 #4000397（疑似重定向）"
   },
   {
     "id": "f2",
@@ -3296,7 +3373,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3330,7 +3407,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3368,7 +3445,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3402,7 +3479,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3436,7 +3513,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3470,7 +3547,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3504,7 +3581,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3573,7 +3650,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3642,7 +3719,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3676,7 +3753,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3714,7 +3791,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3748,7 +3825,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3761,7 +3838,7 @@
     "id": "f16",
     "name": "铜锣湾 告士打道276号",
     "addr": "告士打道276号",
-    "price": 8000,
+    "price": 6200,
     "area": 150,
     "room": "开放式",
     "floor": "低层",
@@ -3782,14 +3859,18 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
         "price": 8000
+      },
+      {
+        "date": "2026-10-05",
+        "price": 6200
       }
     ],
-    "siteName": "海殿大厦"
+    "siteName": "怡明阁"
   },
   {
     "id": "f17",
@@ -3851,7 +3932,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3885,7 +3966,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3919,7 +4000,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3953,7 +4034,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3987,7 +4068,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4021,7 +4102,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4059,7 +4140,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4093,7 +4174,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4127,7 +4208,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4169,7 +4250,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4203,7 +4284,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4241,7 +4322,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4275,7 +4356,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4309,7 +4390,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4343,7 +4424,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4412,7 +4493,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4446,7 +4527,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4459,7 +4540,7 @@
     "id": "f36",
     "name": "北角 渣华道57-59号",
     "addr": "渣华道57-59号",
-    "price": 9900,
+    "price": 8600,
     "area": 183,
     "room": "开放式",
     "floor": "中层",
@@ -4480,14 +4561,18 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
         "price": 9900
+      },
+      {
+        "date": "2026-10-05",
+        "price": 8600
       }
     ],
-    "siteName": "添金阁"
+    "siteName": "单幢楼房"
   },
   {
     "id": "f37",
@@ -4549,7 +4634,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4583,7 +4668,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4617,7 +4702,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4685,7 +4770,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4719,7 +4804,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4753,7 +4838,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4787,7 +4872,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4821,7 +4906,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4859,7 +4944,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4893,7 +4978,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4927,7 +5012,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4961,7 +5046,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4995,7 +5080,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5029,7 +5114,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5063,7 +5148,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5097,7 +5182,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5131,7 +5216,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5165,7 +5250,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5199,7 +5284,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5233,7 +5318,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5267,7 +5352,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5305,7 +5390,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5339,7 +5424,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5373,7 +5458,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5407,7 +5492,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5445,7 +5530,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5478,7 +5563,7 @@
     "ok": true,
     "walk": false,
     "est": false,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-04",
     "priceHistory": [
       {
@@ -5486,7 +5571,8 @@
         "price": 9000
       }
     ],
-    "siteName": "大围村"
+    "siteName": "大围村",
+    "goneWhy": "标题中无 #4000512（疑似重定向）"
   },
   {
     "id": "g3",
@@ -5513,7 +5599,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5547,7 +5633,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5581,7 +5667,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5615,7 +5701,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-04",
+    "lastSeen": "2026-10-05",
     "priceHistory": [
       {
         "date": "2026-10-01",
