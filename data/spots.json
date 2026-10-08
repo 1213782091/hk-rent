@@ -4224,7 +4224,7 @@
     "ok": true,
     "walk": false,
     "est": true,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-08",
     "priceHistory": [
       {
@@ -4240,7 +4240,8 @@
         "price": 8800
       }
     ],
-    "siteName": "电气道121号"
+    "siteName": "电气道121号",
+    "goneWhy": "标题中无 #4035620（疑似重定向）"
   },
   {
     "id": "f27",
