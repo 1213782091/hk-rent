@@ -3048,7 +3048,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3086,7 +3086,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3138,7 +3138,7 @@
     "id": "e37",
     "name": "新蒲岗 安强大楼",
     "addr": "康强街51-65号",
-    "price": 6400,
+    "price": 6300,
     "area": 352,
     "room": "两房",
     "floor": "中层",
@@ -3159,7 +3159,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3172,6 +3172,10 @@
       {
         "date": "2026-10-03",
         "price": 6400
+      },
+      {
+        "date": "2026-10-09",
+        "price": 6300
       }
     ],
     "siteName": "衍庆大厦"
@@ -3201,7 +3205,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3239,7 +3243,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3277,7 +3281,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3381,7 +3385,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3415,7 +3419,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3452,7 +3456,7 @@
     "ok": true,
     "walk": true,
     "est": true,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-08",
     "priceHistory": [
       {
@@ -3460,7 +3464,8 @@
         "price": 8200
       }
     ],
-    "siteName": "昌业大厦"
+    "siteName": "昌业大厦",
+    "goneWhy": "标题中无 #4005953（疑似重定向）"
   },
   {
     "id": "f5",
@@ -3487,7 +3492,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3521,7 +3526,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3555,7 +3560,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3589,7 +3594,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3658,7 +3663,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3731,7 +3736,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3765,7 +3770,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3803,7 +3808,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3836,7 +3841,7 @@
     "ok": true,
     "walk": true,
     "est": true,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-08",
     "priceHistory": [
       {
@@ -3844,7 +3849,8 @@
         "price": 11000
       }
     ],
-    "siteName": "美汉大厦"
+    "siteName": "美汉大厦",
+    "goneWhy": "标题中无 #3813094（疑似重定向）"
   },
   {
     "id": "f16",
@@ -3871,7 +3877,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3979,7 +3985,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4013,7 +4019,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4047,7 +4053,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4085,7 +4091,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4119,7 +4125,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4157,7 +4163,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4191,7 +4197,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4268,7 +4274,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4302,7 +4308,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4340,7 +4346,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4374,7 +4380,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4408,7 +4414,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4442,7 +4448,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4511,7 +4517,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4545,7 +4551,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4579,7 +4585,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4660,7 +4666,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4698,7 +4704,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4732,7 +4738,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4804,7 +4810,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4838,7 +4844,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4872,7 +4878,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4905,7 +4911,7 @@
     "ok": true,
     "walk": false,
     "est": true,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-08",
     "priceHistory": [
       {
@@ -4913,7 +4919,8 @@
         "price": 9200
       }
     ],
-    "siteName": "丽景楼"
+    "siteName": "丽景楼",
+    "goneWhy": "标题中无 #4007304（疑似重定向）"
   },
   {
     "id": "f46",
@@ -4979,7 +4986,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5013,7 +5020,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5047,7 +5054,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5081,7 +5088,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5115,7 +5122,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5148,7 +5155,7 @@
     "ok": true,
     "walk": false,
     "est": true,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-08",
     "priceHistory": [
       {
@@ -5156,7 +5163,8 @@
         "price": 10500
       }
     ],
-    "siteName": "太顺楼"
+    "siteName": "太顺楼",
+    "goneWhy": "标题中无 #4006911（疑似重定向）"
   },
   {
     "id": "f53",
@@ -5183,7 +5191,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5217,7 +5225,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5251,7 +5259,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5285,7 +5293,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5319,7 +5327,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5357,7 +5365,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5395,7 +5403,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5433,7 +5441,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5467,7 +5475,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5501,7 +5509,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5535,7 +5543,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5573,7 +5581,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5642,7 +5650,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5655,7 +5663,7 @@
     "id": "g4",
     "name": "大围 铜锣湾村",
     "addr": "铜锣湾山路",
-    "price": 10000,
+    "price": 9300,
     "area": 380,
     "room": "开放式",
     "floor": "低层",
@@ -5676,11 +5684,15 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
         "price": 10000
+      },
+      {
+        "date": "2026-10-09",
+        "price": 9300
       }
     ],
     "siteName": "铜锣湾村"
@@ -5710,7 +5722,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5744,7 +5756,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-08",
+    "lastSeen": "2026-10-09",
     "priceHistory": [
       {
         "date": "2026-10-01",
