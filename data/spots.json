@@ -5326,7 +5326,7 @@
     "ok": true,
     "walk": false,
     "est": true,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-09",
     "priceHistory": [
       {
@@ -5338,7 +5338,8 @@
         "price": 9000
       }
     ],
-    "siteName": "东大街136号"
+    "siteName": "东大街136号",
+    "goneWhy": "标题中无 #3964863（疑似重定向）"
   },
   {
     "id": "f58",
