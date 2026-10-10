@@ -3048,7 +3048,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3086,7 +3086,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3159,7 +3159,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3205,7 +3205,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3243,7 +3243,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3281,7 +3281,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3385,7 +3385,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3419,7 +3419,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3492,7 +3492,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3526,7 +3526,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3560,7 +3560,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3594,7 +3594,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3663,7 +3663,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3736,14 +3736,14 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
         "price": 9500
       }
     ],
-    "siteName": "合宜大厦"
+    "siteName": "广安大厦"
   },
   {
     "id": "f13",
@@ -3770,7 +3770,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3808,7 +3808,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -3876,7 +3876,7 @@
     "ok": true,
     "walk": true,
     "est": true,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-09",
     "priceHistory": [
       {
@@ -3888,7 +3888,8 @@
         "price": 6200
       }
     ],
-    "siteName": "怡明阁"
+    "siteName": "怡明阁",
+    "goneWhy": "标题中无 #4009083（疑似重定向）"
   },
   {
     "id": "f17",
@@ -3985,7 +3986,7 @@
     "walk": true,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4019,7 +4020,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4053,7 +4054,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4091,7 +4092,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4125,7 +4126,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4163,7 +4164,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4197,7 +4198,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4274,7 +4275,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4308,7 +4309,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4346,7 +4347,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4380,7 +4381,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4414,7 +4415,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4448,7 +4449,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4517,7 +4518,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4551,7 +4552,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4585,7 +4586,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4666,7 +4667,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4703,7 +4704,7 @@
     "ok": true,
     "walk": false,
     "est": true,
-    "delisted": false,
+    "delisted": true,
     "lastSeen": "2026-10-09",
     "priceHistory": [
       {
@@ -4711,7 +4712,8 @@
         "price": 11500
       }
     ],
-    "siteName": "金海大厦"
+    "siteName": "金海大厦",
+    "goneWhy": "标题中无 #4008736（疑似重定向）"
   },
   {
     "id": "f40",
@@ -4738,7 +4740,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4810,7 +4812,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4844,7 +4846,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4878,7 +4880,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -4986,7 +4988,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5020,7 +5022,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5054,7 +5056,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5088,7 +5090,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5122,7 +5124,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5191,7 +5193,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5225,7 +5227,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5259,7 +5261,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5293,7 +5295,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5366,7 +5368,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5404,7 +5406,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5442,7 +5444,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5476,7 +5478,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5510,7 +5512,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5544,7 +5546,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5582,7 +5584,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5651,7 +5653,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5685,7 +5687,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5723,7 +5725,7 @@
     "walk": false,
     "est": true,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
@@ -5757,7 +5759,7 @@
     "walk": false,
     "est": false,
     "delisted": false,
-    "lastSeen": "2026-10-09",
+    "lastSeen": "2026-10-10",
     "priceHistory": [
       {
         "date": "2026-10-01",
